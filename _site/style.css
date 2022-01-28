@@ -254,8 +254,21 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 75px;
+    padding-top: 55px;
     min-height: 100vh;
+}
+
+.info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/memorial-background.jpeg) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 600px;
 }
 
 .left-info-section {
@@ -293,13 +306,6 @@ a:focus {
 }
 
 @media(min-width:900px) {
-    .content-section {
-        padding-top: 100px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
     .right-section {
         padding: 100px 0;
     }
@@ -440,12 +446,4 @@ a:focus {
     0 0 16px rgb(0, 102, 255),
     0 0 24px rgb(0, 102, 255),
     0 0 36px rgb(0, 102, 255) !important;
-}
-
-.guide {
-  background-color: #03132d;
-  background-image: url(/img/guide-background.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }

@@ -249,8 +249,21 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 75px;
+    padding-top: 55px;
     min-height: 100vh;
+}
+
+.info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/memorial-background.jpeg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 600px;
 }
 
 .left-info-section {
@@ -288,13 +301,6 @@ a:focus {
 }
 
 @media(min-width:900px) {
-    .content-section {
-        padding-top: 100px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
     .right-section {
         padding: 100px 0;
     }
