@@ -33,20 +33,25 @@ li {
   font-size: 18px;
 }
 
-a {
-  color: #8bcbff !important;
+.content-section a {
+  color: #004888;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-a:hover,
-a:focus {
-  color: #8bcbff !important;
-  text-shadow:
-    0 0 4px #8bcbff,
-    0 0 8px #8bcbff,
-    0 0 16px rgb(0, 102, 255),
-    0 0 24px rgb(0, 102, 255),
-    0 0 36px rgb(0, 102, 255) !important;
+.content-section a:hover,
+.content-section a:focus {
+  color: #008cff;
+}
+
+.contact-info-section a, .intro a {
+  color: #008cff !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus {
+  color: #004888 !important;
 }
