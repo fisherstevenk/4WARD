@@ -45,13 +45,50 @@ li {
   color: #008cff;
 }
 
-.contact-info-section a, .intro a {
+.contact-info-section a, .intro a, dd a {
   color: #008cff !important;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus {
+.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus {
   color: #004888 !important;
+}
+
+dl.faq button {
+  margin: 0;
+  margin-top: 16px;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 120%;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+}
+
+dl.faq .desc {
+  margin: 0;
+  display: none;
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  z-index:1;
+  position: relative;
+  top     : 0px;
+  right   : 0px;
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+  padding: 2px 6px;
+  background-color: #004888;
+  border: 2px solid #000000;
+  cursor: pointer;
 }
