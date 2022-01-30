@@ -291,7 +291,7 @@ p {
     padding: 50px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background: url(/img/left-side-design.jpeg) no-repeat center center scroll;
+    background: url(/img/faq-background.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
