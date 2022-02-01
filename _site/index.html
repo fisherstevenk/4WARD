@@ -27,8 +27,11 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-215865610-1');
+        function updateGoogle(page_path) {
+            gtag('set', 'page_path', page_path);
+            gtag('event', 'page_view');
+        }
     </script>
 </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -49,16 +52,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#4ward">Pool Info</a>
+                        <a class="page-scroll" href="#4ward" onclick="updateGoogle('#4ward')">Pool Info</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#tof">Third Option Foundation</a>
+                        <a class="page-scroll" href="#tof" onclick="updateGoogle('#tof')">Third Option Foundation</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#faq">FAQs</a>
+                        <a class="page-scroll" href="#faq" onclick="updateGoogle('#faq')">FAQs</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact" onclick="updateGoogle('#contact')">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +77,7 @@
                     <div class="text-center">
                         <h1 class="brand-heading">Welcome to<br>ADA for Warriors</h1>
                         <p class="intro-text">A mission driven, single operator Cardano pool (ticker '4WARD') that donates 50% of it's income to the Third Option Foundation to help those who've quietly served<br>
-                        <a href="#4ward" class="btn btn-circle page-scroll">
+                        <a href="#4ward" class="btn btn-circle page-scroll" onclick="updateGoogle('#4ward')">
                             <i class="fas fa-angle-double-down animated"></i>
                         </a>
                     </div>
