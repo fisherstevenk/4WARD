@@ -118,10 +118,9 @@ p {
     }
 }
 
-.intro {
+.no-webp .intro {
     display: table;
     width: 100%;
-    height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -131,6 +130,22 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .intro {
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/header-background.webp) no-repeat bottom center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
 }
 
 .intro .intro-body {
@@ -240,11 +255,23 @@ p {
     min-height: 100vh;
 }
 
-.info-section {
+.no-webp .info-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(0, 0, 0);
-    background: url(/img/center-background.jpeg) no-repeat center center scroll;
+    background: url(/img/center-background.jpeg) no-repeat center center fixed;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.webp .info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/center-background.webp) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -264,7 +291,7 @@ p {
     min-height: 100vh;
 }
 
-.left-info-section {
+.no-webp .left-info-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(0, 0, 0);
@@ -277,7 +304,20 @@ p {
     min-height: 100vh;
 }
 
-.right-info-section {
+.webp .left-info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/right-side-design.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .right-info-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(255, 255, 255);
@@ -291,7 +331,21 @@ p {
     min-height: 100vh;
 }
 
-.faq-section {
+.webp .right-info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/left-side-design.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .faq-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(255, 255, 255);
@@ -305,14 +359,26 @@ p {
     min-height: 100vh;
 }
 
+.webp .faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/faq-background.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
 .left-container {
     margin-left: 45px !important;
-    width: 57% !important;
 }
 
 .right-container {
     margin-right: 45px !important;
-    width: 57% !important;
 }
 
 @media(min-width:900px) {
