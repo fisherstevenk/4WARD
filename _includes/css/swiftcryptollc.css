@@ -45,15 +45,15 @@ li {
   color: #008cff;
 }
 
-.contact-info-section a, .intro a, dd a {
+.contact-info-section a, .intro a, dd a, .left-info-section a {
   color: #008cff !important;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus {
-  color: #004888 !important;
+.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus, .left-info-section a:hover, .left-info-section a.focus {
+  color: #0065bd !important;
 }
 
 dl.faq button {
@@ -92,4 +92,13 @@ dl.faq button:focus {
   background-color: #004888;
   border: 2px solid #000000;
   cursor: pointer;
+}
+
+h1 {
+  text-shadow: 4px 10px 10px #000000;
+  font-weight: bold;
+}
+
+.intro-text {
+  text-shadow: 2px 5px 5px #000000;
 }

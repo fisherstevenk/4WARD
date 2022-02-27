@@ -118,10 +118,10 @@ p {
     }
 }
 
-.intro {
+.no-webp .intro {
+    font-weight: bold;
     display: table;
     width: 100%;
-    height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -131,6 +131,22 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .intro {
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/header-background.webp) no-repeat bottom center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
 }
 
 .intro .intro-body {
@@ -240,11 +256,23 @@ p {
     min-height: 100vh;
 }
 
-.info-section {
+.no-webp .info-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(0, 0, 0);
-    background: url(/img/center-background.jpeg) no-repeat center center scroll;
+    background: url(/img/center-background.jpeg) no-repeat center center fixed;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.webp .info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/center-background.webp) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -264,10 +292,10 @@ p {
     min-height: 100vh;
 }
 
-.left-info-section {
+.no-webp .left-info-section {
     width: 100%;
     padding: 50px 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: url(/img/right-side-design.jpeg) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
@@ -277,7 +305,20 @@ p {
     min-height: 100vh;
 }
 
-.right-info-section {
+.webp .left-info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/right-side-design.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .right-info-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(255, 255, 255);
@@ -291,7 +332,21 @@ p {
     min-height: 100vh;
 }
 
-.faq-section {
+.webp .right-info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/left-side-design.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .faq-section {
     width: 100%;
     padding: 50px 0;
     color: rgb(255, 255, 255);
@@ -305,14 +360,26 @@ p {
     min-height: 100vh;
 }
 
+.webp .faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/faq-background.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
 .left-container {
     margin-left: 45px !important;
-    width: 57% !important;
 }
 
 .right-container {
     margin-right: 45px !important;
-    width: 57% !important;
 }
 
 @media(min-width:900px) {
@@ -452,15 +519,15 @@ li {
   color: #008cff;
 }
 
-.contact-info-section a, .intro a, dd a {
+.contact-info-section a, .intro a, dd a, .left-info-section a {
   color: #008cff !important;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus {
-  color: #004888 !important;
+.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus, .left-info-section a:hover, .left-info-section a.focus {
+  color: #0065bd !important;
 }
 
 dl.faq button {
@@ -499,4 +566,13 @@ dl.faq button:focus {
   background-color: #004888;
   border: 2px solid #000000;
   cursor: pointer;
+}
+
+h1 {
+  text-shadow: 4px 10px 10px #000000;
+  font-weight: bold;
+}
+
+.intro-text {
+  text-shadow: 2px 5px 5px #000000;
 }

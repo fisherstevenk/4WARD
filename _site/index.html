@@ -54,7 +54,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#4ward" onclick="updateGoogle('#4ward')">Pool Info</a>
+                        <a class="page-scroll" href="#4ward" onclick="updateGoogle('#4ward')">4WARD</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#tof" onclick="updateGoogle('#tof')">Third Option Foundation</a>
@@ -78,9 +78,9 @@
                 <div class="row">
                     <div class="text-center">
                         <h1 class="brand-heading">Welcome to<br>ADA for Warriors</h1>
-                        <p class="intro-text">A mission-driven single pool for Cardano that donates 50% of it's operator's rewards to the Third Option Foundation to help those who've quietly served.<br>
+                        <p class="intro-text">A mission-driven single pool for Cardano that <a href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" title="Donation History" onclick="updateGoogle('donationHistory')">donates 50%</a> of it's operator's rewards to the Third Option Foundation to help those who've quietly served.<br>
                         <a href="#4ward" class="btn btn-circle page-scroll" onclick="updateGoogle('#4ward')">
-                            <i class="fas fa-angle-double-down animated"></i>
+                            <i class="fas fa-angle-double-down animated" style="text-shadow: none !important;"></i>
                         </a>
                     </div>
                 </div>
@@ -88,23 +88,40 @@
         </div>
     </header>
 
-        <!-- 4WARD Section -->
-    <section id="4ward" class="content-section">
-        <div class="left-info-section">
+    <!-- 4WARD Section -->
+<section id="4ward" class="content-section">
+    <div class="left-info-section">
         <div class="container text-left left-container me-auto">
-            <h2>ADA for Warriors</h2>
-            <p>ADA for Warriors (ticker 4WARD) is a mission-driven single pool for Cardano.  The pool was created as a way to give back to those who have quietly served
-                by donating fifty percent of the pool operator's rewards to the <a href="https://www.thirdoptionfoundation.org/" target="_blank">Third Option Foundation</a>.  All donations
-            can be tracked on our main <a href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank">Swift Crypto LLC</a> website.</p>
-            <p>The pool consists of one block producer with two relay nodes deployed to AWS.  Each AWS instance is using 4 CPUs and 16 GB RAM, which exceeds the current hardware requirements.  
-                One relay and the block producer are in the AWS US East Region and the other relay is in the AWS European Central Region.</p>
-                <p>Security and recovery best practices were put in place to help guarantee server availability.  Grafana is used to remotely monitor the status of all three servers. Should disaster recovery be needed, secure remote access
-                    is available to our admins from anywhere in the world.</p>
-                <p>You can check our current pool status at <a href="https://pool.vet/#b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80" target="_blank">Pool Vet</a>.</p>
-                <iframe width="500" height="380" frameborder="0" src="https://js.adapools.org/widget-dark.html?pool=b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"><a href="https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80">Detail</a></iframe>
+            <h2>ADA for Warriors (4WARD)</h2>
+            <p>ADA for Warriors is a mission-driven single pool for Cardano. The pool was created as a
+                way to give back to those who have quietly served
+                by donating fifty percent of the pool operator's rewards to the Third
+                    Option Foundation.  All donations can be tracked on our main <a
+                    href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank"
+                    onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website (which also contains our latest 
+                    news and information).</p>
+            <p>The pool consists of one block producer with two relay nodes deployed to AWS. Each AWS instance is using
+                4 CPUs and 16 GB RAM, which exceeds the current hardware requirements.
+                One relay and the block producer are in the AWS US East Region and the other relay is in the AWS
+                European Central Region.  Security and recovery best practices were put in place to help guarantee server availability. Grafana is
+                used to remotely monitor the status of all three servers. Should disaster recovery be needed, secure
+                remote access is available to our admins from anywhere in the world. Our current pool status can be checked with <a
+                href="https://pool.vet/#b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
+                onclick="updateGoogle('poolVet')" target="_blank">Pool Vet</a>.</p>
+            <p>To help support the community, and get support, we joined the <a href="https://singlepoolalliance.net/" target="_blank">Cardano Single Pool
+                    Alliance</a> and the
+                <a href="https://adapools.org/alli/xspo-alliance/11" target="_blank">xSPO Alliance</a>. Both alliances
+                are full of like-minded pool operators who have pledged to run a single pool to help decentralize
+                Cardano. Both alliances have been great sources of information on upcoming projects for Cardano
+                and a great source for tech tips for running our pool.
+            </p>
+            <p>We are also a member of the <a href="https://www.freeloaderz.io/" target="_blank">Freeloaderz</a>
+                coalition to help support the Cardano community. This coalition is made up of Cardano stake pools that
+                are offering Cardano TX Submit API access to their Relay servers. This API service helps improve
+                transaction speed by allowing supporting user wallets to submit transactions directly to a Relay.</p>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
         <!-- TOF Section -->
     <section id="tof" class="content-section">
         <div class="info-section">
@@ -116,7 +133,7 @@
             <p>The assistance given can be in 
                 the form of financial and logistical support, academic and college prep for children, home maintenance, counseling and family services, physical health
                 and wellness support, legacy activities to honor fallen warriors, and the establishment of memorials.</p>
-                <p>To learn more about their mission, please visit their <a href="https://www.thirdoptionfoundation.org/" target="_blank">website</a>.</p>
+                <p>To learn more about their mission, please visit their <a href="https://www.thirdoptionfoundation.org/" target="_blank" onclick="updateGoogle('tof')">website</a>.</p>
                 <p><b>Your ADA delegation to the 4WARD pool is needed to help support this mission.</b></p>
             </div>
         </div>
@@ -186,7 +203,7 @@
               else control over your ADA.
               You always maintain the "keys".</p>
             <p>For full step-by-step instructions, see our <a
-                href="https://swiftcryptollc.github.io/2021/11/23/staking-guide/" target="_blank">Staking Guide</a>.
+                href="https://swiftcryptollc.github.io/2021/11/23/staking-guide/" target="_blank" onclick="updateGoogle('scllcStaking')">Staking Guide</a>.
             </p>
           </div>
         </dd>
@@ -239,7 +256,7 @@
               be donated directly to
               the Third Option Foundation.</p>
             <p>All donations will be recorded on our main <a
-                href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank">Swift Crypto LLC</a> website.</p>
+                href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" onclick="updateGoogle('donationHistory')">Swift Crypto LLC</a> website.</p>
           </div>
         </dd>
       </div>
@@ -250,7 +267,7 @@
         <div class="contact-info-section">
             <div class="container text-center ms-auto me-auto">
                 <h2>Contact</h2>
-                <p>Visit our <a href="https://swiftcryptollc.github.io" target="_blank">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
+                <p>Visit our <a href="https://swiftcryptollc.github.io" target="_blank" onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
                 <p>Please contact us if you have questions or if you would like additional information regarding the 4WARD pool.</p>
                 <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
                 </p>
@@ -281,6 +298,10 @@
                     </li>
                     
                 </ul>
+                <iframe width="500" height="380" frameborder="0"
+                src="https://js.adapools.org/widget-dark.html?pool=b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"><a
+                    href="https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
+                    target="_blank" onclick="updateGoogle('adapools')">Detail</a></iframe>
             </div>
         </div>
     </section>
@@ -307,5 +328,8 @@
     <!-- Swift Crypto LLC JavaScript -->
     <script src="/js/swiftcryptollc.js" defer></script>
 
+    <!-- Modernizer JavaScript -->
+    <script src="/js/modernizer.js" defer></script>
+ 
     </body>
 </html>

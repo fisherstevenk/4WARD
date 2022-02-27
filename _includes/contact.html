@@ -3,7 +3,7 @@
         <div class="contact-info-section">
             <div class="container text-center ms-auto me-auto">
                 <h2>Contact</h2>
-                <p>Visit our <a href="https://swiftcryptollc.github.io" target="_blank">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
+                <p>Visit our <a href="https://swiftcryptollc.github.io" target="_blank" onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
                 <p>Please contact us if you have questions or if you would like additional information regarding the 4WARD pool.</p>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
@@ -14,6 +14,10 @@
                     </li>
                     {% endfor %}
                 </ul>
+                <iframe width="500" height="380" frameborder="0"
+                src="https://js.adapools.org/widget-dark.html?pool=b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"><a
+                    href="https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
+                    target="_blank" onclick="updateGoogle('adapools')">Detail</a></iframe>
             </div>
         </div>
     </section>
