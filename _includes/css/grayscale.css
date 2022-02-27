@@ -114,6 +114,7 @@ p {
 }
 
 .no-webp .intro {
+    font-weight: bold;
     display: table;
     width: 100%;
     padding: 100px 0;
@@ -289,7 +290,7 @@ p {
 .no-webp .left-info-section {
     width: 100%;
     padding: 50px 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: url(/img/right-side-design.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
@@ -302,7 +303,7 @@ p {
 .webp .left-info-section {
     width: 100%;
     padding: 50px 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: url(/img/right-side-design.webp) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
