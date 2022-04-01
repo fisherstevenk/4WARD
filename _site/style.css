@@ -318,6 +318,32 @@ p {
     min-height: 100vh;
 }
 
+.no-webp .ca-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/woods-small.jpg) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .ca-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/woods-small.webp) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
 .no-webp .right-info-section {
     width: 100%;
     padding: 50px 0;
@@ -517,17 +543,19 @@ li {
 .content-section a:hover,
 .content-section a:focus {
   color: #008cff;
+  background-color: transparent !important;
 }
 
-.contact-info-section a, .intro a, dd a, .left-info-section a {
+.contact-info-section a, .intro a, dd a, .left-info-section a, .ca-section a {
   color: #008cff !important;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus, .left-info-section a:hover, .left-info-section a.focus {
+.contact-info-section a:hover, .contact-info-section a:focus, .intro a:hover, .intro a:focus, dd a:hover, dd a.focus, .left-info-section a:hover, .left-info-section a.focus, .ca-section a:hover, .ca-section a.focus {
   color: #0065bd !important;
+  background-color: transparent !important;
 }
 
 dl.faq button {
@@ -575,4 +603,59 @@ h1 {
 
 .intro-text {
   text-shadow: 2px 5px 5px #000000;
+}
+
+.quote {
+  margin: 0 0 25px;
+  font-size: medium !important;
+}
+
+.font-medium {
+  margin: 0 0 25px;
+  font-size: medium !important;
+  line-height: 1.4
+}
+
+.navbar-nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none !important;
+}
+
+@media (max-width: 1115px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
