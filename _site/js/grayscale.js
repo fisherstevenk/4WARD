@@ -35,3 +35,21 @@ $("a").mouseup(function(){
     $(this).blur();
 })
 
+function screenResize() {
+    if($(window).innerWidth() > 1100) {
+        $(".navbar-toggler").removeClass("hidden").addClass("hidden");
+    } else {
+        $(".navbar-toggler").removeClass("hidden");
+    }
+}
+
+// Fire.
+screenResize();
+
+$(window).resize(function() {
+    screenResize();
+  });
+
+  $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});

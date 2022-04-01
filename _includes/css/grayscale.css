@@ -313,6 +313,32 @@ p {
     min-height: 100vh;
 }
 
+.no-webp .ca-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/woods-small.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .ca-section {
+    width: 100%;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/woods-small.webp) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
 .no-webp .right-info-section {
     width: 100%;
     padding: 50px 0;

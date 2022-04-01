@@ -36,41 +36,44 @@
         }
     </script>
 </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <body id="page-top" data-bs-spy="scroll" data-bs-target=".navbar-fixed-top">
      <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+ <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container-lg">
+        <div class="navbar-header" style="margin-left:25px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" style="float:left !important;margin-top: 10px !important">
+                <i class="fas fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">Home</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#4ward" onclick="updateGoogle('#4ward')">4WARD</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#tof" onclick="updateGoogle('#tof')">Third Option Foundation</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#faq" onclick="updateGoogle('#faq')">FAQs</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact" onclick="updateGoogle('#contact')">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbarSupportedContent" class="collapse navbar-collapse navbar-right navbar-main-collapse" style="margin-top: 5px;margin-right: 50px !important">
+            <ul class="nav navbar-nav">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#4ward" onclick="updateGoogle('#4ward')">4WARD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#tof" onclick="updateGoogle('#tof')">Third Option Foundation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#ca" onclick="updateGoogle('#ca')">Captive Audience</a>
+                </li>
+              <li class="nav-item">
+                    <a class="page-scroll" href="#faq" onclick="updateGoogle('#faq')">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#contact" onclick="updateGoogle('#contact')">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container -->
-    </nav>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
         <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
@@ -78,7 +81,7 @@
                 <div class="row">
                     <div class="text-center">
                         <h1 class="brand-heading">Welcome to<br>ADA for Warriors</h1>
-                        <p class="intro-text">A mission-driven single pool for Cardano that <a href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" title="Donation History" onclick="updateGoogle('donationHistory')">donates 50%</a> of it's operator's rewards to the Third Option Foundation to help those who've quietly served.<br>
+                        <p class="intro-text">A mission-driven single pool for Cardano that donates <a href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" title="Third Option Foundation Donation History" onclick="updateGoogle('tofDonationHistory')">50%</a> of it's op's rewards to the Third Option Foundation and <a href="https://swiftcryptollc.github.io/donations/captive-audience/" target="_blank" title="Captive Audience Donation History" onclick="updateGoogle('caDonationHistory')">25%</a> of it's op's rewards to Captive Audience.<br>
                         <a href="#4ward" class="btn btn-circle page-scroll" onclick="updateGoogle('#4ward')">
                             <i class="fas fa-angle-double-down animated" style="text-shadow: none !important;"></i>
                         </a>
@@ -134,8 +137,25 @@
                 the form of financial and logistical support, academic and college prep for children, home maintenance, counseling and family services, physical health
                 and wellness support, legacy activities to honor fallen warriors, and the establishment of memorials.</p>
                 <p>To learn more about their mission, please visit their <a href="https://www.thirdoptionfoundation.org/" target="_blank" onclick="updateGoogle('tof')">website</a>.</p>
-                <p><b>Your ADA delegation to the 4WARD pool is needed to help support this mission.</b></p>
             </div>
+        </div>
+    </section>
+        <!-- ca Section -->
+    <section id="ca" class="content-section">
+        <div class="ca-section">
+            <div class="container text-left left-container me-auto">
+                <strong>
+            <h2>Captive Audience</h2>
+            <p>Captive Audience offers an array of security, travel, self-defense, firearms, and survival courses designed to develop the skills needed to
+                maintain situational awareness and survive in kidnapping, extortion, active shooter, natural disaster, and crisis situations at home and abroad.</p>
+            <p>Captive Audience was established by a retired army special forces operator with specialized training and experience in personnel recovery, CAPTaRT
+                is comprised of a team with three decades of experience in defense, intelligence, SERE, travel/personnel/facility security, counter terrorism,
+                personnel recovery, infiltration/exfiltration, critical incident stress management, risk and threat assessments, and many more skills crucial to the
+                company’s mission to eradicate violence perpetrated against travelers.</p>
+                <p>Requests for their services have spiked since Russia invaded Ukraine in early 2022.  In response to these requests, 
+                    Captive Audience has started <a href="https://www.captiveaudienceptrt.com/support-ukraine-ocv" target="_blank" onclick="updateGoogle('ca')">#OperationCaffeinatedVikings</a>.</p>
+                <p>To learn more about their mission, please visit their <a href="https://www.captiveaudienceptrt.com/" target="_blank" onclick="updateGoogle('ca')">website</a>.</p>
+            </strong></div>
         </div>
     </section>
     <!-- FAQ Section -->
@@ -158,7 +178,7 @@
               the Cardano Network?</button>
           </dt>
           <dt>
-            <button type="button" aria-expanded="false" aria-controls="faq6_desc">I bought ADA and delegated. When
+            <button type="button" aria-expanded="false" aria-controls="faq7_desc">I bought ADA and delegated. When
               do I get rewards?</button>
           </dt>
           <dt>
@@ -166,7 +186,10 @@
               Foundation?</button>
           </dt>
           <dt>
-            <button type="button" aria-expanded="false" aria-controls="faq5_desc">How do the donations
+            <button type="button" aria-expanded="false" aria-controls="faq5_desc">Why donate to Captive Audience?</button>
+          </dt>
+          <dt>
+            <button type="button" aria-expanded="false" aria-controls="faq6_desc">How do the donations
               work?</button>
           </dt>
         </dl>
@@ -208,7 +231,7 @@
           </div>
         </dd>
         <dd>
-          <div id="faq6_desc" class="desc">
+          <div id="faq7_desc" class="desc">
             <p>Cardano uses Epochs to define a period of time that a set of randomly selected pools will be active. The
               random selection is weighted with a number of
               parameters, one being the total delegation to the pool. The more delegation a pool has, the higher chance
@@ -246,17 +269,40 @@
         </dd>
         <dd>
           <div id="faq5_desc" class="desc">
-            <p>The ADA for Warriors pool currently has a minimum fee of 340 ADA and a 3% variable fee. When our pool is
-              active, the
-              income for the pool will be 340 ADA plus 3% of the remaining ADA pool rewards per epoch (the remaining 97%
-              will get distributed to all of the delegators based on their delegation percentage vs the total
-              delegation).</p>
+            <p class="font-medium">About a year ago, I met <a
+              href="https://www.captiveaudienceptrt.com/our-ceo" target="_blank" onclick="updateGoogle('billy')">Billy Jensen</a> and <a
+              href="https://www.captiveaudienceptrt.com/our-coo" target="_blank" onclick="updateGoogle('check')">Check Freedman</a>, the founders of Captive Audience, at 
+              <a href="https://koreselfdefense.com/" target="_blank" onclick="updateGoogle('koreKravMaga')">Kore Krav Maga</a> in Ashburn.  They created Captive Audience
+              to provide security, travel, self-defense, firearms, and survival courses designed to develop the skills needed to maintain situational awareness and
+              survive in kidnapping, extortion, active shooter, natural disaster, and crisis situations at home and abroad.
+            </p>
+            <p class="font-medium">Requests for their services have spiked since Russia invaded Ukraine in early 2022.  In response to these requests, Captive Audience has started <a href="https://www.captiveaudienceptrt.com/support-ukraine-ocv" target="_blank" onclick="updateGoogle('ocv')">#OperationCaffeinatedVikings</a>.  
+            </p>
+            <p class="font-medium">To quote their website:
+              <figure>
+                  <blockquote>
+                      <div class="quote-line-container">
+                          <p class="quote">"The Russian invasion into Ukraine has seen countless lives turned upside down overnight, with attacks on evacuating civilians and reports of vital lifelines to refugees, families, and children cut off. In the past two weeks, the Captive Audience team has received requests from Ukrainians to evacuate a 2-week-old starving baby who was without food or water for 30 hours. Another request came to help excavate 200 Christians trapped in the basement of a burning church, after a rocket demolished the church building above them.</p>
+                          <p class="quote">These are just two examples of many amidst the worst humanitarian crisis Europe has seen since World War II. The scale of the Ukrainian crisis can be overwhelming, and it’s hard to know how to help.</p>
+                          <p class="quote">Captive Audience is an organization with deep ancestral ties to Ukraine and has worked closely with towns, churches, synagogues, UN/EU missions, missionaries, orphanages, and other community groups to provide humanitarian aid in Ukraine and other parts of the region since 2009.</p>
+                          <p class="quote">We have been directly requested by several of those same communities to provide boots-on-the-ground emergency aid and training in emergency response skills. But we need your help to get there.</p>
+                          <p class="quote">By supporting Captive Audience, you’re offering tangible assistance to equip Ukrainians on the ground."</p>
+                      </div>
+                  </blockquote>
+                  <figcaption style="float:right !important"><cite style="font-size:20px !important">-Captive Audience</cite></figcaption>
+              </figure></p>
+          </div>
+        </dd>
+        <dd>
+          <div id="faq6_desc" class="desc">
+            <p>The ADA for Warriors pool currently has a minimum fee of 340 ADA and a 0% variable fee. When our pool is
+              active, the income for the pool will be 340 ADA for the epoch (the remaining ADA will get distributed to all of the delegators
+              based on their delegation percentage vs the total delegation).</p>
             <p>To reduce the amount of fees paid, donations will be made during the last epoch of each month. Half of the pool
               income for the previous month will be transfered to an exchange and sold. The proceeds of that sale will
-              be donated directly to
-              the Third Option Foundation.</p>
-            <p>All donations will be recorded on our main <a
-                href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" onclick="updateGoogle('donationHistory')">Swift Crypto LLC</a> website.</p>
+              be donated directly to the <a
+              href="https://swiftcryptollc.github.io/donations/third-option-foundation/" target="_blank" onclick="updateGoogle('tofDonationHistory')">Third Option Foundation (50%)</a> and <a
+              href="https://swiftcryptollc.github.io/donations/captive-audience/" target="_blank" onclick="updateGoogle('caDonationHistory')">Captive Audience (25%)</a>.</p>
           </div>
         </dd>
       </div>
@@ -330,6 +376,7 @@
 
     <!-- Modernizer JavaScript -->
     <script src="/js/modernizer.js" defer></script>
+
  
     </body>
 </html>
