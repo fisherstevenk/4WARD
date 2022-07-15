@@ -27,7 +27,7 @@ class DisclosureButton {
 
   showContent() {
     if (this.controlledNode) {
-      this.controlledNode.style.display = 'block';
+        
     }
   }
 
