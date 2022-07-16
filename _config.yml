@@ -30,9 +30,9 @@ social:
 collections:
   news: 
     output: true
-  donations: 
+  missions: 
     output: true
-    
+
 # Build settings
 markdown: kramdown
 permalink: pretty

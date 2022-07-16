@@ -1,8 +1,3 @@
-.container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 .code-header {
   display: flex;
   justify-content: flex-end;
@@ -21,6 +16,10 @@
   top: 20px !important;
   position: relative;
   border: none;
+}
+
+a.page-scroll {
+  font-weight: bold;
 }
 
 table {
@@ -95,7 +94,8 @@ ul li ul li a {
   transition: all .2s ease-in-out;
 }
 
-.content-section a {
+.content-section a,
+a.blue {
   color: #004888;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -103,7 +103,8 @@ ul li ul li a {
 }
 
 .content-section a:hover,
-.content-section a:focus {
+.content-section a:focus,
+a.blue {
   color: #008cff;
   background-color: transparent !important;
 }
@@ -112,7 +113,9 @@ ul li ul li a {
 .intro a,
 dd a,
 .left-info-section a,
-.ca-section a {
+.ca-intro-section a,
+.pool-section a,
+.tof-intro-section a {
   color: #008cff !important;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -127,8 +130,12 @@ dd a:hover,
 dd a.focus,
 .left-info-section a:hover,
 .left-info-section a.focus,
-.ca-section a:hover,
-.ca-section a.focus {
+.pool-section a:hover,
+.pool-section a:focus,
+.ca-intro-section a:hover,
+.ca-intro-section a:focus,
+.tof-intro-section a:hover,
+.tof-intro-section a:focus {
   color: #0065bd !important;
   background-color: transparent !important;
 }
@@ -320,4 +327,16 @@ h1 {
   .collapse.in {
     display: block !important;
   }
+}
+
+.fa-arrow-alt-circle-up {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  font-size: 35px;
+  text-shadow: 5px 10px 10px #000000;
+}
+
+.invisible {
+  display: none;
 }

@@ -1,12 +1,8 @@
 ---
-layout: donations
+layout: tof
 title:  "Third Option Foundation Donations"
 ---
-Our Cardano [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool (4WARD) donates 50% of the pool operator rewards to the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"}.  Donations are made during the last epoch of each month that our pool was active.
-
-The Third Option Foundation was chosen because they fill the gap for our fallen and injured CIA operators and their families. Their assistance can be in the form of financial and logistical support, academic and college prep for children, home maintenance, counseling and family services, physical health and wellness support, legacy activities to honor fallen warriors, and the establishment of memorials.
-
-If you want to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.
+If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
 ## 2022 Donations $1035.58 ##
@@ -82,5 +78,5 @@ If you want to help honor the sacrifices they've made for our country, please de
                   
 <br /><br />
 {:refdef: style="font-size: 16px"}
-_*Data verification can be done by checking our pool data over at [ADA Pools](https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80#tab-rewards){:target="_blank"}_
+_*Data verification can be done by checking our pool data over at [ADA Pools](https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80#tab-rewards){:target="_blank" class="blue"}_
 {: refdef}
