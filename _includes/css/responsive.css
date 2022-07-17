@@ -4,6 +4,25 @@
     }
 }
 
+@media only screen and (min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 80px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+    p, td, th {
+        font-size: 22px;
+    }
+}
+
+
 @media only screen and (max-device-width:767px) {
     ul.banner-social-buttons li {
         display: block !important;
@@ -17,6 +36,16 @@
 
     p {
         line-height: 1.2 !important;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 18px;
+        text-shadow: 5px 5px 8px #272727;
+    }
+
+    p, td {
+        font-size: 18px;
+        text-shadow: 5px 5px 8px #272727;
     }
 }
 
@@ -40,9 +69,18 @@
         right: 20px;
         bottom: 20px;
         font-size: 20px;
-        text-shadow: 4px 8px 8px #000000;
+        text-shadow: 4px 4px 7px #000000;
     }
 
+    .intro .intro-body .intro-text {
+        font-size: 16px;
+        text-shadow: 4px 4px 7px #272727;
+    }
+
+    p, td {
+        font-size: 16px;
+        text-shadow: 4px 4px 7px #272727;
+    }
 }
 
 @media only screen and (max-device-height: 500px) {

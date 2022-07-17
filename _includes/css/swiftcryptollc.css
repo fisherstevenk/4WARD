@@ -112,8 +112,6 @@ a.blue {
 .contact-info-section a,
 .intro a,
 dd a,
-.left-info-section a,
-.ca-intro-section a,
 .pool-section a,
 .tof-intro-section a {
   color: #008cff !important;
@@ -128,8 +126,6 @@ dd a,
 .intro a:focus,
 dd a:hover,
 dd a.focus,
-.left-info-section a:hover,
-.left-info-section a.focus,
 .pool-section a:hover,
 .pool-section a:focus,
 .ca-intro-section a:hover,
@@ -137,6 +133,19 @@ dd a.focus,
 .tof-intro-section a:hover,
 .tof-intro-section a:focus {
   color: #0065bd !important;
+  background-color: transparent !important;
+}
+
+.ca-intro-section a{
+  color: #0064bb !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+.ca-intro-section a:hover,
+.ca-intro-section a:focus {
+  color: #008cff !important;
   background-color: transparent !important;
 }
 
@@ -179,12 +188,12 @@ dl.faq button:focus {
 }
 
 h1 {
-  text-shadow: 4px 10px 10px #000000;
+  text-shadow: 4px 10px 10px #272727;
   font-weight: bold;
 }
 
 .intro-text {
-  text-shadow: 2px 5px 5px #000000;
+  text-shadow: 2px 5px 5px #272727;
 }
 
 .quote {
@@ -198,11 +207,13 @@ h1 {
   line-height: 1.4
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li>a,
+.navbar-brand {
   position: relative;
   display: block;
   padding: 10px 15px;
   text-decoration: none !important;
+  text-shadow: 5px 10px 10px #272727;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -334,9 +345,23 @@ h1 {
   right: 50px;
   bottom: 50px;
   font-size: 35px;
-  text-shadow: 5px 10px 10px #000000;
+  text-shadow: 5px 10px 10px #272727;
 }
 
 .invisible {
   display: none;
+}
+
+.blackdiv {
+  background-color: black;
+}
+
+p, td, th {
+  text-shadow: 5px 10px 10px #272727;
+  font-size: 22px;
+}
+
+.center-flex {
+  display: flex;
+  align-items:center
 }

@@ -30,6 +30,10 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2, h3 {
+    text-shadow: 5px 10px 10px #272727;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -154,22 +158,7 @@ p {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
-}
-
-@media(min-width:767px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 80px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 25px;
-    }
+    font-size: 25px;
 }
 
 .btn-circle {
@@ -194,6 +183,29 @@ p {
     background: rgba(255, 255, 255, .1);
 }
 
+
+.btn-black-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 35px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+  }
+  
+  .btn-black-circle:hover,
+  .btn-black-circle:focus {
+    outline: 0;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, .1);
+  }
+  
 a i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -343,9 +355,9 @@ a:hover i.animated {
 
 .no-webp .ca-donation-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/ca/ca-background.jpeg) no-repeat center center scroll;
+    background: url(/img/ca/ca-background.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -356,9 +368,9 @@ a:hover i.animated {
 
 .webp .ca-donation-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/ca/ca-background.webp) no-repeat center center scroll;
+    background: url(/img/ca/ca-background.webp) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -369,9 +381,9 @@ a:hover i.animated {
 
 .no-webp .ca-intro-section {
     width: 100%;
-    padding: 50px 0;
-    color: rgb(255, 255, 255);
-    background: url(/img/ca/ca-background.jpeg) no-repeat center center scroll;
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/ca/ca-intro.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -382,9 +394,9 @@ a:hover i.animated {
 
 .webp .ca-intro-section {
     width: 100%;
-    padding: 50px 0;
-    color: rgb(255, 255, 255);
-    background: url(/img/ca/ca-background.webp) no-repeat center center scroll;
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+    background: url(/img/ca/ca-intro.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -395,7 +407,7 @@ a:hover i.animated {
 
 .no-webp .right-info-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
     background: url(/img/left-side-design.jpeg) no-repeat center center scroll;
@@ -498,7 +510,7 @@ ul.banner-social-buttons li {
 }
 
 .logo-img {
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 footer {
