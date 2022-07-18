@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     {% include head.html %}
-    <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <body class="guide" id="home" data-spy="scroll" data-target=".navbar-fixed-top">
         {% include nav.html %}
-        <div class="container content-section text-left">
+        <section id="post">
+            <div class="post-section">
+                <div class="container text-left ms-auto me-auto">
             <div class="row">
-                <div class="post-section col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2">
                     <h2>{{ page.title }}</h2>
                     <i>News Date: {{ page.date }}</i>
                     {{ content }}
                 </div>
             </div>
         </div>
+        </div>
+        </section>
         {% include contact.html %}
         {% include footer.html %}
         {% include js.html %}

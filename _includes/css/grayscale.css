@@ -31,7 +31,7 @@ h6 {
 }
 
 h2, h3 {
-    text-shadow: 5px 10px 10px #272727;
+    text-shadow: 5px 10px 10px #000000;
 }
 
 p {
@@ -85,13 +85,16 @@ p {
 }
 
 .navbar-custom .nav li,
-.navbar-custom .nav li a {
+.navbar-custom .nav li a,
+h2 a {
     color: #ffffff !important;
 }
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active a {
+.navbar-custom .nav li.active a,
+h2:hover a,
+h2:focus a {
     color: #008cff !important;
     background-color: transparent !important;
 }
@@ -262,6 +265,7 @@ a:hover i.animated {
     padding-top: 55px;
     min-height: 100vh;
 }
+
 .no-webp .tof-intro-section {
     width: 100%;
     padding: 100px 0;
@@ -329,9 +333,9 @@ a:hover i.animated {
 
 .no-webp .pool-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/4ward-background.jpeg) no-repeat center center scroll;
+    background: url(/img/4ward-background.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -342,9 +346,9 @@ a:hover i.animated {
 
 .webp .pool-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/4ward-background.webp) no-repeat center center scroll;
+    background: url(/img/4ward-background.webp) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -405,12 +409,12 @@ a:hover i.animated {
     min-height: 100vh;
 }
 
-.no-webp .right-info-section {
+.no-webp .news-section {
     width: 100%;
-    padding: 100px 0;
+    padding: 45px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background: url(/img/left-side-design.jpeg) no-repeat center center scroll;
+    background: url(/img/news.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -419,12 +423,40 @@ a:hover i.animated {
     min-height: 100vh;
 }
 
-.webp .right-info-section {
+.webp .news-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 45px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background: url(/img/left-side-design.webp) no-repeat center center scroll;
+    background: url(/img/news.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .post-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/news.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .post-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: url(/img/news.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -435,10 +467,10 @@ a:hover i.animated {
 
 .no-webp .faq-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background: url(/img/faq-background.jpeg) no-repeat center center scroll;
+    background: url(/img/faq-background.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -449,10 +481,10 @@ a:hover i.animated {
 
 .webp .faq-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background: url(/img/faq-background.webp) no-repeat center center scroll;
+    background: url(/img/faq-background.webp) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;

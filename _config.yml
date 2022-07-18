@@ -32,6 +32,10 @@ collections:
     output: true
   missions: 
     output: true
+  about:
+    output: true
+  community:
+    output: true
 
 # Build settings
 markdown: kramdown

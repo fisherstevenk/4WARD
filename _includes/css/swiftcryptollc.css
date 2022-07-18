@@ -79,7 +79,6 @@ ul li ul:hover {
   opacity: 1;
   position: absolute;
   display: inline-block;
-  background-color: #000000;
 }
 
 ul li ul li {
@@ -150,11 +149,12 @@ dd a.focus,
 }
 
 dl.faq button {
+  font-size: 22px;
+  text-shadow: 5px 10px 10px #000000;
   margin: 0;
   margin-top: 16px;
   padding: 4px 8px;
   font-weight: bold;
-  font-size: 20px;
   text-align: left !important;
   border: none;
   background-color: transparent;
@@ -188,12 +188,12 @@ dl.faq button:focus {
 }
 
 h1 {
-  text-shadow: 4px 10px 10px #272727;
+  text-shadow: 4px 10px 10px #000000;
   font-weight: bold;
 }
 
 .intro-text {
-  text-shadow: 2px 5px 5px #272727;
+  text-shadow: 2px 5px 5px #000000;
 }
 
 .quote {
@@ -207,13 +207,18 @@ h1 {
   line-height: 1.4
 }
 
+ul>li a,
+div i {
+  text-shadow: 5px 10px 10px #000000;
+}
+
 .navbar-nav>li>a,
 .navbar-brand {
   position: relative;
   display: block;
   padding: 10px 15px;
   text-decoration: none !important;
-  text-shadow: 5px 10px 10px #272727;
+  text-shadow: 5px 10px 10px #000000;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -345,7 +350,7 @@ h1 {
   right: 50px;
   bottom: 50px;
   font-size: 35px;
-  text-shadow: 5px 10px 10px #272727;
+  text-shadow: 5px 10px 10px #000000;
 }
 
 .invisible {
@@ -356,8 +361,10 @@ h1 {
   background-color: black;
 }
 
-p, td, th {
-  text-shadow: 5px 10px 10px #272727;
+p,
+td,
+th {
+  text-shadow: 5px 10px 10px #000000;
   font-size: 22px;
 }
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="guide" id="home" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    <section id="4ward">
+        <div class="pool-section">
+            <div class="container text-left left-container me-auto">
+                <h2>ADA for Warriors (4WARD)</h2>
+                <p>ADA for Warriors is a mission-driven single pool for Cardano. The pool was created as a
+                    way to give back to those who have quietly served
+                    by donating 50% of the pool operator's rewards to the Third
+                        Option Foundation.  We have since expanded to donating 25% of our operator rewards to Captive Audience.  Donations for each 
+                        mission can be tracked on their respective pages on our main <a href="https://www.swiftcryptollc.com/" target="_blank"
+                        onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website.</p>
+                        <p><ul>
+                            <li>
+                                <a href="https://www.swiftcryptollc.com/donations/third-option-foundation/" target="_blank"
+                                onclick="updateGoogle('scllc')">Third Option Foundation Donations</a>
+                            </li>
+                            <li>
+                                <a href="https://www.swiftcryptollc.com/donations/captive-audience/" target="_blank"
+                                onclick="updateGoogle('scllc')">Captive Audience Donations</a>
+                            </li>
+                        </ul></p> 
+                <p>The pool consists of one block producer with two relay nodes deployed to AWS. Each AWS instance is using
+                    4 CPUs and 16 GB RAM, which exceeds the current hardware requirements.
+                    One relay and the block producer are in the AWS US East Region and the other relay is in the AWS
+                    European Central Region.  Security and recovery best practices were put in place to help guarantee server availability. Grafana is
+                    used to remotely monitor the status of all three servers. Should disaster recovery be needed, secure
+                    remote access is available to our admins from anywhere in the world. Our current pool status can be checked with <a
+                    href="https://pool.vet/#b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
+                    onclick="updateGoogle('poolVet')" target="_blank">Pool Vet</a>.</p>
+                <p>To help support the community, and get support, we joined the <a href="https://singlepoolalliance.net/" target="_blank">Cardano Single Pool
+                        Alliance</a> and the
+                    <a href="https://adapools.org/alli/xspo-alliance/11" target="_blank">xSPO Alliance</a>. Both alliances
+                    are full of like-minded pool operators who have pledged to run a single pool to help decentralize
+                    Cardano. Both alliances have been great sources of information on upcoming projects for Cardano
+                    and a great source for tech tips for running our pool.
+                </p>
+                <p>We are also a member of the <a href="https://www.freeloaderz.io/" target="_blank">Freeloaderz</a>
+                    coalition to help support the Cardano community. This coalition is made up of Cardano stake pools that
+                    are offering Cardano TX Submit API access to their Relay servers. This API service helps improve
+                    transaction speed by allowing supporting user wallets to submit transactions directly to a Relay.</p>
+            </div>
+        </div>
+    </section>
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    {% include modal.html %}
+</body>
+
+</html>

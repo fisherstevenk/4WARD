@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="home" data-bs-spy="scroll" data-bs-target=".navbar-fixed-top">
+  {% include nav.html %}
+  <!-- FAQ Section -->
+  <section id="faq">
+    <div class="faq-section">
+      <div class="container text-left left-container">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div style="display: flex;">
+        <div class="container text-left left-container" style="width: 40% !important;float: left !important">
+          <dl class="faq">
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq1_desc">What is ADA?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq2_desc">What is proof-of-stake?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq3_desc">How do I delegate ADA to support
+                the Cardano Network?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq7_desc">I bought ADA and delegated. When
+                do I get rewards?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq4_desc">Why donate to the Third Option
+                Foundation?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq5_desc">Why donate to Captive
+                Audience?</button>
+            </dt>
+            <dt>
+              <button type="button" aria-expanded="false" aria-controls="faq6_desc">How do the donations
+                work?</button>
+            </dt>
+          </dl>
+        </div>
+        <div class="text-left" style="width: 60% !important;padding: 0 50px !important;">
+          <dd>
+            <div id="faq1_desc" class="desc">
+              <p>ADA is the token for the Cardano network. Cardano is a third generation, decentralized proof-of-stake
+                (PoS) blockchain. Cardano was started in 2015 by one of the co-founders of Ethereum, Charles Hoskinson.
+                Cardano and it's ADA
+                token were launched in 2017. Cardano has gone through multiple development "eras". Each era goes through
+                peer
+                reviewed academic research, prototyping, and development.</p>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq2_desc" class="desc">
+              <p>Proof-of-stake is a type of consensus mechanism used by some cryptocurrency blockchain networks.
+                Cardano uses Block Producers (part of a "Stake Pool") to create new transaction blocks and validate
+                transactions via the Ourboros protocol.
+                Holders of ADA can help secure the network by delegating their ADA to a Stake Pool (like our 4WARD
+                pool).
+                In return, holders are
+                rewarded with ADA when the
+                Stake Pool generates new blocks.</p>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq3_desc" class="desc">
+              <p>You will need to buy some ADA on an exchange first. After your deposit clears, you will be able to send
+                your ADA to a wallet like Yoroi.
+                Within Yoroi and other ADA wallets, you can choose a pool and delegate to it. The entire process
+                generally
+                takes 5 to 10 days depending on
+                the exchange you choose. When you delegate your ADA, there is no lock period and you never give anyone
+                else control over your ADA.
+                You always maintain the "keys".</p>
+              <p>For full step-by-step instructions, see our <a
+                  href="https://swiftcryptollc.github.io/2021/11/23/staking-guide/" target="_blank"
+                  onclick="updateGoogle('scllcStaking')">Staking Guide</a>.
+              </p>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq7_desc" class="desc">
+              <p>Cardano uses Epochs to define a period of time that a set of randomly selected pools will be active.
+                The
+                random selection is weighted with a number of
+                parameters, one being the total delegation to the pool. The more delegation a pool has, the higher
+                chance
+                it has to be active for a given epoch.
+                When your delegated pool is selected to be active and it creates blocks during that epoch, you will get
+                rewards from that epoch in 2 epochs time.</p>
+
+              <p>The timeline looks like this:</p>
+              <ul>
+                <li>You delegate your ADA to a pool during Epoch A (1 to 5 days)</li>
+                <li>Epoch B, your pool is active and you earn rewards (5 days)</li>
+                <li>Epoch C, rewards for Epoch B are calculated (5 days)</li>
+                <li>Epoch D, Rewards for Epoch B are paid out (5 days)</li>
+              </ul>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq4_desc" class="desc">
+              <p>There are a number of amazing veteran charities. They help veterans and their families with financial
+                issues;
+                physical, emotional, and psychological issues; housing; education; and many other things that many of us
+                take for granted.</p>
+              <p>The Third Option Foundation specifically supports the operators (and their families) of the CIA Special
+                Activities Center. These operators
+                put themselves in the most dangerous situations in the world, usually behind enemy lines. Their work is
+                covert, leaving them with
+                not much more community support than their families. Also, because of their covert nature, they often
+                aren't
+                eligible for support from military veteran charities.</p>
+              <p>The Third Option Foundation is the only organization that fills that gap. They provide crucial
+                survivorship assistance and resiliency programs to heal the wounded, help the families of those we have
+                lost, and support those who are still serving.
+              </p>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq5_desc" class="desc">
+              <p class="font-medium">About a year ago, I met <a href="https://www.captiveaudienceptrt.com/our-ceo"
+                  target="_blank" onclick="updateGoogle('billy')">Billy Jensen</a> and <a
+                  href="https://www.captiveaudienceptrt.com/our-coo" target="_blank"
+                  onclick="updateGoogle('check')">Check
+                  Freedman</a>, the founders of Captive Audience, at
+                <a href="https://koreselfdefense.com/" target="_blank" onclick="updateGoogle('koreKravMaga')">Kore Krav
+                  Maga</a> in Ashburn. They created Captive Audience
+                to provide security, travel, self-defense, firearms, and survival courses designed to develop the skills
+                needed to maintain situational awareness and
+                survive in kidnapping, extortion, active shooter, natural disaster, and crisis situations at home and
+                abroad.
+              </p>
+              <p class="font-medium">Requests for their services have spiked since Russia invaded Ukraine in early 2022.
+                In response to these requests, Captive Audience has started <a
+                  href="https://www.captiveaudienceptrt.com/support-ukraine-ocv" target="_blank"
+                  onclick="updateGoogle('ocv')">#OperationCaffeinatedVikings</a>.
+              </p>
+              <p class="font-medium">To quote their website:
+              <figure>
+                <blockquote>
+                  <div class="quote-line-container">
+                    <p class="quote">"The Russian invasion into Ukraine has seen countless lives turned upside down
+                      overnight, with attacks on evacuating civilians and reports of vital lifelines to refugees,
+                      families, and children cut off. In the past two weeks, the Captive Audience team has received
+                      requests from Ukrainians to evacuate a 2-week-old starving baby who was without food or water for
+                      30
+                      hours. Another request came to help excavate 200 Christians trapped in the basement of a burning
+                      church, after a rocket demolished the church building above them.</p>
+                    <p class="quote">These are just two examples of many amidst the worst humanitarian crisis Europe has
+                      seen since World War II. The scale of the Ukrainian crisis can be overwhelming, and it’s hard to
+                      know how to help.</p>
+                    <p class="quote">Captive Audience is an organization with deep ancestral ties to Ukraine and has
+                      worked closely with towns, churches, synagogues, UN/EU missions, missionaries, orphanages, and
+                      other
+                      community groups to provide humanitarian aid in Ukraine and other parts of the region since 2009.
+                    </p>
+                    <p class="quote">We have been directly requested by several of those same communities to provide
+                      boots-on-the-ground emergency aid and training in emergency response skills. But we need your help
+                      to get there.</p>
+                    <p class="quote">By supporting Captive Audience, you’re offering tangible assistance to equip
+                      Ukrainians on the ground."</p>
+                  </div>
+                </blockquote>
+                <figcaption style="float:right !important"><cite style="font-size:20px !important">-Captive
+                    Audience</cite></figcaption>
+              </figure>
+              </p>
+            </div>
+          </dd>
+          <dd>
+            <div id="faq6_desc" class="desc">
+              <p>The ADA for Warriors pool currently has a minimum fee of 340 ADA and a 0% variable fee. When our pool
+                is
+                active, the income for the pool will be 340 ADA for the epoch (the remaining ADA will get distributed to
+                all of the delegators
+                based on their delegation percentage vs the total delegation).</p>
+              <p>To reduce the amount of fees paid, donations will typically be made during the last epoch of each
+                month.</p>
+              <p><a href="/missions/third-option-foundation#tof-donations"
+                  onclick="updateGoogle('tofDonationHistory')">Third Option Foundation Donations</a>
+              <p><a href="/missions/captive-audience#ca-donations" onclick="updateGoogle('caDonationHistory')">Captive
+                  Audience Donations</a>
+              </p>
+            </div>
+          </dd>
+        </div>
+      </div>
+  </section>
+  {% include contact.html %}
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+
+</html>

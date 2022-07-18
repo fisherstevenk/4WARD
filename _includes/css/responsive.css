@@ -17,15 +17,11 @@
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
-    p, td, th {
-        font-size: 22px;
-    }
 }
 
 
 @media only screen and (max-device-width:767px) {
     ul.banner-social-buttons li {
-        display: block !important;
         margin-bottom: 20px !important;
         padding: 0 !important;
     }
@@ -40,17 +36,24 @@
 
     .intro .intro-body .intro-text {
         font-size: 18px;
-        text-shadow: 5px 5px 8px #272727;
+        text-shadow: 5px 5px 8px #000000;
     }
 
-    p, td {
+    p,
+    td,
+    th,
+    dl.faq button {
         font-size: 18px;
-        text-shadow: 5px 5px 8px #272727;
+        text-shadow: 5px 5px 8px #000000;
     }
 }
 
 @media only screen and (max-device-width:400px) {
 
+    ul.banner-social-buttons li {
+        display: block !important;
+    }
+    
     .container,
     .tof-intro-section,
     .ca-intro-section,
@@ -74,12 +77,15 @@
 
     .intro .intro-body .intro-text {
         font-size: 16px;
-        text-shadow: 4px 4px 7px #272727;
+        text-shadow: 4px 4px 7px #000000;
     }
 
-    p, td {
+    p,
+    td,
+    th,
+    dl.faq button {
         font-size: 16px;
-        text-shadow: 4px 4px 7px #272727;
+        text-shadow: 4px 4px 7px #000000;
     }
 }
 
