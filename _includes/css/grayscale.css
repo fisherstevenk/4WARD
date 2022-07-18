@@ -23,6 +23,7 @@ h3,
 h4,
 h5,
 h6 {
+    color: #ff9a00;
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -69,7 +70,7 @@ p {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover {
     outline: 0;
-    color: #008cff !important;
+    color: #ffb200 !important;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
@@ -80,7 +81,7 @@ p {
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #008cff !important;
+    color: #ffb200 !important;
     background-color: transparent !important;
 }
 
@@ -88,6 +89,8 @@ p {
 .navbar-custom .nav li a,
 h2 a {
     color: #ffffff !important;
+    background-color: transparent !important;
+    text-decoration: none;
 }
 
 .navbar-custom .nav li a:hover,
@@ -95,8 +98,8 @@ h2 a {
 .navbar-custom .nav li.active a,
 h2:hover a,
 h2:focus a {
-    color: #008cff !important;
-    background-color: transparent !important;
+    color: #ffb200 !important;
+    text-decoration: underline !important;
 }
 
 @media(min-width:767px) {
@@ -202,8 +205,8 @@ h2:focus a {
     transition: background .3s ease-in-out;
   }
   
-  .btn-black-circle:hover,
-  .btn-black-circle:focus {
+.btn-black-circle:hover,
+.btn-black-circle:focus {
     outline: 0;
     color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, .1);
@@ -216,7 +219,8 @@ a i.animated {
     -moz-transition-duration: 1s;
 }
 
-a:hover i.animated {
+a:hover i.animated,
+a:focus i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -292,7 +296,6 @@ a:hover i.animated {
     min-height: 100vh;
 }
 
-
 .no-webp .tof-donation-section {
     width: 100%;
     padding: 100px 0;
@@ -335,7 +338,7 @@ a:hover i.animated {
     width: 100%;
     padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/4ward-background.jpeg) no-repeat center center fixed;
+    background: url(/img/pool.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -348,7 +351,59 @@ a:hover i.animated {
     width: 100%;
     padding: 100px 0;
     color: rgb(255, 255, 255);
-    background: url(/img/4ward-background.webp) no-repeat center center fixed;
+    background: url(/img/pool.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .freeloaderz-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/freeloaderz/freeloaderz.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .freeloaderz-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/freeloaderz/freeloaderz.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.no-webp .mehen-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/mehen/mehen.jpeg) no-repeat center center fixed;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .mehen-section {
+    width: 100%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    background: url(/img/mehen/mehen.jpeg) no-repeat center center fixed;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
