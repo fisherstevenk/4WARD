@@ -93,9 +93,10 @@
 
     .tof-intro-section,
     .ca-intro-section,
-    .tof-donation-section,
-    .ca-donation-section {
-        padding: 75px 0 !important;
+    .freeloaderz-section,
+    .mehen-section,
+    .pool-section {
+        padding: 100px 0 !important;
     }
 
     .logo-img {
