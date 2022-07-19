@@ -240,7 +240,7 @@ a:focus i.animated {
   width: 100%;
   padding: 125px 0;
   color: rgb(255, 255, 255);
-  background: url(/img/tof/tof-intro-2.jpeg) no-repeat center center scroll;
+  background: url(/img/tof/tof-intro.jpeg) no-repeat center center scroll;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -253,7 +253,7 @@ a:focus i.animated {
   width: 100%;
   padding: 125px 0;
   color: rgb(255, 255, 255);
-  background: url(/img/tof/tof-intro-2.jpeg) no-repeat center center scroll;
+  background: url(/img/tof/tof-intro.webp) no-repeat center center scroll;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -279,7 +279,7 @@ a:focus i.animated {
   width: 100%;
   padding: 100px 0;
   color: rgb(255, 255, 255);
-  background: url(/img/tof/tof-donations.jpeg) no-repeat center center fixed;
+  background: url(/img/tof/tof-donations.webp) no-repeat center center fixed;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -317,7 +317,7 @@ a:focus i.animated {
   width: 100%;
   padding: 125px 0;
   color: rgb(255, 255, 255);
-  background: url(/img/pool.jpeg) no-repeat center center fixed;
+  background: url(/img/pool.webp) no-repeat center center fixed;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -369,7 +369,7 @@ a:focus i.animated {
   width: 100%;
   padding: 125px 0;
   color: rgb(255, 255, 255);
-  background: url(/img/mehen/mehen.jpeg) no-repeat center center fixed;
+  background: url(/img/mehen/mehen.webp) no-repeat center center fixed;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -407,7 +407,7 @@ a:focus i.animated {
 .no-webp .ca-intro-section {
   width: 100%;
   padding: 125px 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background: url(/img/ca/ca-intro.jpeg) no-repeat center center scroll;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
@@ -420,8 +420,8 @@ a:focus i.animated {
 .webp .ca-intro-section {
   width: 100%;
   padding: 125px 0;
-  color: rgb(0, 0, 0);
-  background: url(/img/ca/ca-intro.jpeg) no-repeat center center scroll;
+  color: rgb(255, 255, 255);
+  background: url(/img/ca/ca-intro.webp) no-repeat center center scroll;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -432,7 +432,7 @@ a:focus i.animated {
 
 .no-webp .news-section {
   width: 100%;
-  padding: 45px 0;
+  padding: 100px 0;
   color: rgb(255, 255, 255);
   font-weight: bold;
   background: url(/img/news.jpeg) no-repeat center center fixed;
@@ -446,10 +446,10 @@ a:focus i.animated {
 
 .webp .news-section {
   width: 100%;
-  padding: 45px 0;
+  padding: 100px 0;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  background: url(/img/news.jpeg) no-repeat center center fixed;
+  background: url(/img/news.webp) no-repeat center center fixed;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -477,7 +477,7 @@ a:focus i.animated {
   padding: 100px 0;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  background: url(/img/news.jpeg) no-repeat center center fixed;
+  background: url(/img/news.webp) no-repeat center center fixed;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
