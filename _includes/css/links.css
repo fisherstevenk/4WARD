@@ -1,13 +1,13 @@
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover {
-    outline: 0;
-    color: #ffb200 !important;
+  outline: 0;
+  color: #ffb200 !important;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #ffb200 !important;
-    background-color: transparent !important;
+  color: #ffb200 !important;
+  background-color: transparent !important;
 }
 
 
@@ -16,8 +16,8 @@
 .navbar-custom .nav li.active a,
 h2:hover a,
 h2:focus a {
-    color: #ffb200 !important;
-    text-decoration: underline !important;
+  color: #ffb200 !important;
+  text-decoration: underline !important;
 }
 
 h2,
@@ -43,6 +43,7 @@ a span {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
 a:hover,
 a:focus {
   color: #b37d00 !important;
@@ -74,17 +75,31 @@ a:focus span {
   color: #b37d00;
 }
 
+button.navbar-toggler,
+i.fa-bars {
+  background-color: #ffb200;
+  color: white;
+}
+
+button:focus.navbar-toggler,
+button:hover.navbar-toggler,
+i:focus.fa-bars,
+i:active.fa-bars,
+i:hover.fa-bars {
+  background-color: #b37d00;
+}
+
 /** Captive Audience **/
 body.ca .navbar-custom .navbar-brand:focus,
 body.ca .navbar-custom .navbar-brand:hover {
-    outline: 0;
-    color: #4ef58d !important;
+  outline: 0;
+  color: #4ef58d !important;
 }
 
 body.ca .navbar-custom .navbar-brand .navbar-toggle:focus,
 body.ca .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #4ef58d !important;
-    background-color: transparent !important;
+  color: #4ef58d !important;
+  background-color: transparent !important;
 }
 
 
@@ -93,8 +108,8 @@ body.ca .navbar-custom .nav li a:focus,
 body.ca .navbar-custom .nav li.active a,
 body.ca h2:hover a,
 body.ca h2:focus a {
-    color: #4ef58d !important;
-    text-decoration: underline !important;
+  color: #4ef58d !important;
+  text-decoration: underline !important;
 }
 
 body.ca h2,
@@ -120,6 +135,7 @@ body.ca a span {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
 body.ca a:hover,
 body.ca a:focus {
   color: #1b8d46 !important;
@@ -143,19 +159,34 @@ body.ca .btn-default:hover,
 body.ca .btn-default:focus {
   border: 1px solid #1b8d46;
 }
+
+body.ca button.navbar-toggler,
+body.ca i.fa-bars {
+  background-color: #4ef58d;
+  color: white;
+}
+
+body.ca button:focus.navbar-toggler,
+body.ca button:hover.navbar-toggler,
+body.ca i:focus.fa-bars,
+body.ca i:active.fa-bars,
+body.ca i:hover.fa-bars {
+  background-color: #1b8d46;
+}
+
 /**  End Captive Audience **/
 
 /** TOF **/
 body.tof .navbar-custom .navbar-brand:focus,
 body.tof .navbar-custom .navbar-brand:hover {
-    outline: 0;
-    color: #FF0000 !important;
+  outline: 0;
+  color: #FF0000 !important;
 }
 
 body.tof .navbar-custom .navbar-brand .navbar-toggle:focus,
 body.tof .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #FF0000 !important;
-    background-color: transparent !important;
+  color: #FF0000 !important;
+  background-color: transparent !important;
 }
 
 
@@ -164,8 +195,8 @@ body.tof .navbar-custom .nav li a:focus,
 body.tof .navbar-custom .nav li.active a,
 body.tof h2:hover a,
 body.tof h2:focus a {
-    color: #FF0000 !important;
-    text-decoration: underline !important;
+  color: #FF0000 !important;
+  text-decoration: underline !important;
 }
 
 body.tof h2,
@@ -191,6 +222,7 @@ body.tof a span {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
 body.tof a:hover,
 body.tof a:focus {
   color: #880000 !important;
@@ -214,19 +246,34 @@ body.tof .btn-default:hover,
 body.tof .btn-default:focus {
   border: 1px solid #880000;
 }
+
+body.tof button.navbar-toggler,
+body.tof i.fa-bars {
+  background-color: #ff0000;
+  color: white;
+}
+
+body.tof button:focus.navbar-toggler,
+body.tof button:hover.navbar-toggler,
+body.tof i:focus.fa-bars,
+body.tof i:active.fa-bars,
+body.tof i:hover.fa-bars {
+  background-color: #880000;
+}
+
 /**  End TOF **/
 
 /** FreeLoaderz **/
 body.freeloaderz .navbar-custom .navbar-brand:focus,
 body.freeloaderz .navbar-custom .navbar-brand:hover {
-    outline: 0;
-    color: #2b90c3 !important;
+  outline: 0;
+  color: #2b90c3 !important;
 }
 
 body.freeloaderz .navbar-custom .navbar-brand .navbar-toggle:focus,
 body.freeloaderz .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #2b90c3 !important;
-    background-color: transparent !important;
+  color: #2b90c3 !important;
+  background-color: transparent !important;
 }
 
 
@@ -235,8 +282,8 @@ body.freeloaderz .navbar-custom .nav li a:focus,
 body.freeloaderz .navbar-custom .nav li.active a,
 body.freeloaderz h2:hover a,
 body.freeloaderz h2:focus a {
-    color: #2b90c3 !important;
-    text-decoration: underline !important;
+  color: #2b90c3 !important;
+  text-decoration: underline !important;
 }
 
 body.freeloaderz h2,
@@ -262,6 +309,7 @@ body.freeloaderz a span {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
 body.freeloaderz a:hover,
 body.freeloaderz a:focus {
   color: #2b90c3 !important;
@@ -286,19 +334,33 @@ body.freeloaderz .btn-default:focus {
   border: 1px solid #2b90c3;
 }
 
+body.freeloaderz button.navbar-toggler,
+body.freeloaderz i.fa-bars {
+  background-color: #df4863;
+  color: white;
+}
+
+body.freeloaderz button:focus.navbar-toggler,
+body.freeloaderz button:hover.navbar-toggler,
+body.freeloaderz i:focus.fa-bars,
+body.freeloaderz i:active.fa-bars,
+body.freeloaderz i:hover.fa-bars {
+  background-color: #2b90c3;
+}
+
 /**  End FreeLoaderz **/
 
 /** Mehen **/
 body.mehen .navbar-custom .navbar-brand:focus,
 body.mehen .navbar-custom .navbar-brand:hover {
-    outline: 0;
-    color: #51beff !important;
+  outline: 0;
+  color: #51beff !important;
 }
 
 body.mehen .navbar-custom .navbar-brand .navbar-toggle:focus,
 body.mehen .navbar-custom .navbar-brand .navbar-toggle:active {
-    color: #51beff !important;
-    background-color: transparent !important;
+  color: #51beff !important;
+  background-color: transparent !important;
 }
 
 
@@ -307,8 +369,8 @@ body.mehen .navbar-custom .nav li a:focus,
 body.mehen .navbar-custom .nav li.active a,
 body.mehen h2:hover a,
 body.mehen h2:focus a {
-    color: #51beff !important;
-    text-decoration: underline !important;
+  color: #51beff !important;
+  text-decoration: underline !important;
 }
 
 body.mehen h2,
@@ -334,6 +396,7 @@ body.mehen a span {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
 body.mehen a:hover,
 body.mehen a:focus {
   color: #0091e6 !important;
@@ -363,5 +426,18 @@ body.mehen .btn-default:focus {
   border: 1px solid #0091e6;
 }
 
-/**  End Mehen **/
+body.mehen button.navbar-toggler,
+body.mehen i.fa-bars {
+  background-color: #51beff;
+  color: white;
+}
 
+body.mehen button:focus.navbar-toggler,
+body.mehen button:hover.navbar-toggler,
+body.mehen i:focus.fa-bars,
+body.mehen i:active.fa-bars,
+body.mehen i:hover.fa-bars {
+  background-color: #0091e6;
+}
+
+/**  End Mehen **/

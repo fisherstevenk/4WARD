@@ -660,11 +660,19 @@ ul li ul {
   display: none;
   width: 400px;
   padding-left: 15px;
+  z-index: 999;
 }
 
 ul li:hover>ul,
+ul li:active>ul,
+ul li:focus>ul,
+ul li a:active>ul,
+ul li a:focus>ul,
+ul li a:hover>ul,
 ul li:focus-within>ul,
-ul li ul:hover {
+ul li ul:hover,
+ul li ul:focus,
+ul li ul:active {
   visibility: visible;
   opacity: 1;
   position: absolute;
