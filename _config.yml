@@ -1,6 +1,6 @@
 # Site settings
 title: Welcome to<br>ADA for Warriors
-email: swiftcryptollc@gmail.com
+email: info@swiftcryptollc.com
 url: https://4ward.swiftcryptollc.com
 description: >-
   A mission-driven single pool for Cardano that donates 50% of it's operator's rewards to the Third Option Foundation to help those who've quietly served.
@@ -26,6 +26,16 @@ social:
     url: https://github.com/swiftcryptollc
   - title: reddit
     url: https://www.reddit.com/user/SwiftCryptoLLC/
+
+collections:
+  news: 
+    output: true
+  missions: 
+    output: true
+  about:
+    output: true
+  community:
+    output: true
 
 # Build settings
 markdown: kramdown

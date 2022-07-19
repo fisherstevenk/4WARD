@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="tof" id="home" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    <section id="tof">
+        <div class="tof-intro-section">
+            <div class="container text-left ms-auto me-auto">
+                <img src="/img/tof/tof-logo.png" class="logo-img">
+                <p class="large-text">Our ADA for Warriors pool donates 50% of the pool operator rewards to the
+                    Third
+                    Option Foundation. Donations are typically made during the last epoch of each
+                    month that our pool was active.</p>
+                </p>
+                <p class="large-text">The Third Option Foundation was chosen because they provide support for our
+                    fallen
+                    and injured CIA operators, and their families.</p>
+                <p class="large-text">It was founded to fill the gap created by the fact that these operators
+                    function
+                    in a
+                    covert manner. Their covert nature leaves them ineligible for most charitable assistance
+                    available
+                    to US military members and their families.
+                    The assistance given can be in
+                    the form of financial and logistical support, academic and college prep for children, home
+                    maintenance, counseling and family services, physical health
+                    and wellness support, legacy activities to honor fallen warriors, and the establishment of
+                    memorials.</p>
+                <p class="large-text">To learn more about their mission, please visit their <a class="blue"
+                        href="https://www.thirdoptionfoundation.org/" target="_blank"
+                        onclick="updateGoogle('tof')">website</a>.</p>
+                <div class="text-center">
+                    <a href="#tof-donations" class="btn btn-circle page-scroll" onclick="updateGoogle('tof-donations')"
+                    title="Donation Information">
+                        <i class="fas fa-angle-double-down animated" style="text-shadow: none !important;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tof-donations" class="tof-donation-section container text-left">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>{{ page.title }}</h2>
+                {{ content }}
+            </div>
+        </div>
+    </section>
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    {% include modal.html %}
+</body>
+
+</html>
