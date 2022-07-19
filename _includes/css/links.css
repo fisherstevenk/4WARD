@@ -1,0 +1,298 @@
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:hover {
+    outline: 0;
+    color: #ffb200 !important;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    color: #ffb200 !important;
+    background-color: transparent !important;
+}
+
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active a,
+h2:hover a,
+h2:focus a {
+    color: #ffb200 !important;
+    text-decoration: underline !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff9a00;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a,
+a i,
+a span {
+  color: #ffb200;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #b37d00 !important;
+  text-decoration: underline !important;
+}
+
+a:hover i,
+a:focus i,
+a:hover span,
+a:focus span {
+  color: #b37d00 !important;
+}
+
+/** Captive Audience **/
+body.ca .navbar-custom .navbar-brand:focus,
+body.ca .navbar-custom .navbar-brand:hover {
+    outline: 0;
+    color: #4ef58d !important;
+}
+
+body.ca .navbar-custom .navbar-brand .navbar-toggle:focus,
+body.ca .navbar-custom .navbar-brand .navbar-toggle:active {
+    color: #4ef58d !important;
+    background-color: transparent !important;
+}
+
+
+body.ca .navbar-custom .nav li a:hover,
+body.ca .navbar-custom .nav li a:focus,
+body.ca .navbar-custom .nav li.active a,
+body.ca h2:hover a,
+body.ca h2:focus a {
+    color: #4ef58d !important;
+    text-decoration: underline !important;
+}
+
+body.ca h2,
+body.ca h3,
+body.ca h4,
+body.ca h5,
+body.ca h6 {
+  color: #4ef58d;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+body.ca a,
+body.ca a i,
+body.ca a span {
+  color: #4ef58d;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+body.ca a:hover,
+body.ca a:focus {
+  color: #1b8d46 !important;
+  text-decoration: underline !important;
+}
+
+body.ca a:hover i,
+body.ca a:focus i,
+body.ca a:hover span,
+body.ca a:focus span {
+  color: #1b8d46 !important;
+}
+/**  End Captive Audience **/
+
+/** TOF **/
+body.tof .navbar-custom .navbar-brand:focus,
+body.tof .navbar-custom .navbar-brand:hover {
+    outline: 0;
+    color: #FF0000 !important;
+}
+
+body.tof .navbar-custom .navbar-brand .navbar-toggle:focus,
+body.tof .navbar-custom .navbar-brand .navbar-toggle:active {
+    color: #FF0000 !important;
+    background-color: transparent !important;
+}
+
+
+body.tof .navbar-custom .nav li a:hover,
+body.tof .navbar-custom .nav li a:focus,
+body.tof .navbar-custom .nav li.active a,
+body.tof h2:hover a,
+body.tof h2:focus a {
+    color: #FF0000 !important;
+    text-decoration: underline !important;
+}
+
+body.tof h2,
+body.tof h3,
+body.tof h4,
+body.tof h5,
+body.tof h6 {
+  color: #FF0000;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+body.tof a,
+body.tof a i,
+body.tof a span {
+  color: #FF0000;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+body.tof a:hover,
+body.tof a:focus {
+  color: #880000 !important;
+  text-decoration: underline !important;
+}
+
+body.tof a:hover i,
+body.tof a:focus i,
+body.tof a:hover span,
+body.tof a:focus span {
+  color: #880000 !important;
+}
+/**  End TOF **/
+
+/** FreeLoaderz **/
+body.freeloaderz .navbar-custom .navbar-brand:focus,
+body.freeloaderz .navbar-custom .navbar-brand:hover {
+    outline: 0;
+    color: #2b90c3 !important;
+}
+
+body.freeloaderz .navbar-custom .navbar-brand .navbar-toggle:focus,
+body.freeloaderz .navbar-custom .navbar-brand .navbar-toggle:active {
+    color: #2b90c3 !important;
+    background-color: transparent !important;
+}
+
+
+body.freeloaderz .navbar-custom .nav li a:hover,
+body.freeloaderz .navbar-custom .nav li a:focus,
+body.freeloaderz .navbar-custom .nav li.active a,
+body.freeloaderz h2:hover a,
+body.freeloaderz h2:focus a {
+    color: #2b90c3 !important;
+    text-decoration: underline !important;
+}
+
+body.freeloaderz h2,
+body.freeloaderz h3,
+body.freeloaderz h4,
+body.freeloaderz h5,
+body.freeloaderz h6 {
+  color: #df4863;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+body.freeloaderz a,
+body.freeloaderz a i,
+body.freeloaderz a span {
+  color: #df4863;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+body.freeloaderz a:hover,
+body.freeloaderz a:focus {
+  color: #2b90c3 !important;
+  text-decoration: underline !important;
+}
+
+body.freeloaderz a:hover i,
+body.freeloaderz a:focus i,
+body.freeloaderz a:hover span,
+body.freeloaderz a:focus span {
+  color: #2b90c3 !important;
+}
+/**  End FreeLoaderz **/
+
+/** Mehen **/
+body.mehen .navbar-custom .navbar-brand:focus,
+body.mehen .navbar-custom .navbar-brand:hover {
+    outline: 0;
+    color: #51beff !important;
+}
+
+body.mehen .navbar-custom .navbar-brand .navbar-toggle:focus,
+body.mehen .navbar-custom .navbar-brand .navbar-toggle:active {
+    color: #51beff !important;
+    background-color: transparent !important;
+}
+
+
+body.mehen .navbar-custom .nav li a:hover,
+body.mehen .navbar-custom .nav li a:focus,
+body.mehen .navbar-custom .nav li.active a,
+body.mehen h2:hover a,
+body.mehen h2:focus a {
+    color: #51beff !important;
+    text-decoration: underline !important;
+}
+
+body.mehen h2,
+body.mehen h3,
+body.mehen h4,
+body.mehen h5,
+body.mehen h6 {
+  color: #51beff;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+body.mehen a,
+body.mehen a i,
+body.mehen a span {
+  color: #51beff;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+body.mehen a:hover,
+body.mehen a:focus {
+  color: #0091e6 !important;
+  text-decoration: underline !important;
+}
+
+body.mehen a:hover i,
+body.mehen a:focus i,
+body.mehen a:hover span,
+body.mehen a:focus span {
+  color: #0091e6 !important;
+}
+/**  End Mehen **/
+
