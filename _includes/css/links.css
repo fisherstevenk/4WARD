@@ -56,6 +56,11 @@ a:focus span {
   color: #b37d00 !important;
 }
 
+.fa-caret-right {
+  color: #b37d00;
+  cursor: default !important;
+}
+
 /** Captive Audience **/
 body.ca .navbar-custom .navbar-brand:focus,
 body.ca .navbar-custom .navbar-brand:hover {
@@ -293,6 +298,11 @@ body.mehen a:focus i,
 body.mehen a:hover span,
 body.mehen a:focus span {
   color: #0091e6 !important;
+}
+
+body.mehen .fa-caret-right {
+  color: #0091e6;
+  cursor: default !important;
 }
 /**  End Mehen **/
 

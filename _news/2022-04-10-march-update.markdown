@@ -3,11 +3,11 @@ layout: post
 title:  "March Update: Donations, Freeloaderz, and Captive Audience"
 ---
 <br> 
-We have been incredibly busy during March (hence the late March update!), but it was a great month for our [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool.  We minted 3 blocks (2 of which were paid out in March), we joined a [Freeloaderz](https://freeloaderz.io){:target="_blank"} project, and we added [Captive Audience (CA)](https://www.captiveaudienceptrt.com/){:target="_blank"} as a new mission to support.
+We have been incredibly busy during March (hence the late March update!), but it was a great month for our [ADA for Warriors](https://4wardpool.swiftcryptollc.com) pool.  We minted 3 blocks (2 of which were paid out in March), we joined a [Freeloaderz](https://freeloaderz.io){:target="_blank"} project, and we added [Captive Audience (CA)](https://www.captiveaudienceptrt.com/){:target="_blank"} as a new mission to support.
 <br><br> 
 
 ### Donation Updates ###
-We had incredible luck in March.  We minted blocks during epochs 325, 326, and 329.  Blocks 325 and 326 were paid out in March (329 was paid out in April and will be included in our April donations).  This resulted in 697.641 ADA in operator rewards of which, ~349 ADA (worth $406.91) was [donated](https://www.swiftcryptollc.com/donations/third-option-foundation/){:target="_blank"} to the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"}.  That brings our 2022 total donation to the Third Option Foundation to $572.63.
+We had incredible luck in March.  We minted blocks during epochs 325, 326, and 329.  Blocks 325 and 326 were paid out in March (329 was paid out in April and will be included in our April donations).  This resulted in 697.641 ADA in operator rewards of which, ~349 ADA (worth $406.91) was [donated](/missions/third-option-foundation#tof-donations) to the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"}.  That brings our 2022 total donation to the Third Option Foundation to $572.63.
 
 If you are a delegator with us, you helped make this happen.  We can't thank you enough for being a part of our mission!
 <br><br> 
@@ -60,8 +60,8 @@ The goal for the Freeloaderz project is to have it deployed for testing on the t
 
 With one block already paid out in April (epoch 329), the current April donations would be 170 ADA to TOF and 85 ADA to CA.  Hopefully we'll get a couple more blocks this month to build on those donations.  You can track the donations for these missions on their respective donation pages:
 
-- [Third Option Foundation Donations](/donations/third-option-foundation/)
-- [Captive Audience Donations](/donations/captive-audience/)
+- [Third Option Foundation Donations](/missions/third-option-foundation#tof-donations)
+- [Captive Audience Donations](/missions/captive-audience#ca-donations)
 
 <br />
 Thank you delegators for helping this all be possible, and thank you Captive Audience for working with us to help support your mission!

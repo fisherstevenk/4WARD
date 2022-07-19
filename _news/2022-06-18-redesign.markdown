@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Major Site Redesign!"
+---
+<br> 
+For the past week we've been updating our ADA for Warriors site to include more information about our missions and community involvment.  This is something that we've been wanting to do for some time now.  We previously had most of that information on our main business website [Swift Crypto LLC](https://www.swiftcryptollc.com){:target="_blank"}.
+
+In the beginning it made sense since we started out mining Ethereum.  As time past on however, we started our Cardano pool and we've become more and more involved in the Cardano community.  It was time!
+
+The biggest change is bringing all of our Cardano [news](/#news) over to this site, along with the donation details for the [Third Option Foundation](/missions/third-option-foundation#tof-donations) and [Captive Audience](/missions/captive-audience#ca-donations).  We've also added information regarding our community involvment with [FreeLoaderz](/community/freeloaderz/), [Mehen](/community/mehen/), and [Project Catalyst](/community/catalyst).
+
+We hope this change helps our current, and potential, delegates learn more about what we are doing to add value to the Cardano ecosystem!

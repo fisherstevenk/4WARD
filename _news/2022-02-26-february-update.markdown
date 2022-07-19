@@ -5,7 +5,7 @@ title:  "February Update: CSPA, xSPO, Freeloaderz, and TOF!"
 <br> 
 _Before I get into all of the details for the month, I offer a huge welcome to our 4 new delegates that joined in February.  Our mission would have zero chance of success without you all.  Thank you for putting your trust in us and thank you for supporting our mission._
 
-Some good things are happening for our Cardano pool, [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"}.  Besides our delegator growth, we minted our first block(s), joined new alliances, added a wallet service, and initiated our first donation to the Third Option Foundation!
+Some good things are happening for our Cardano pool, [ADA for Warriors](https://4wardpool.swiftcryptollc.com).  Besides our delegator growth, we minted our first block(s), joined new alliances, added a wallet service, and initiated our first donation to the Third Option Foundation!
 <br><br> 
 
 ### First Blocks ###
@@ -27,10 +27,10 @@ They offer two load balancers, one in the US and one in Europe.  These load bala
 ### First Third Option Foundation Donation ###
 Out of all of these developments, initiating our first donation to the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} is the one we are the most excited about.  From epoch 318, the operator rewards were ~369 ADA.  That was our only active epoch this month, so that makes our total donation for February ~184.5 ADA.  We transferred 185 ADA to our exchange, sold it, and initiated the USD transfer to cover the check that is being sent to the Third Option Foundation.
 
-Below is a collage of the transactions (click the picture to zoom).  Once the check clears, we'll be updating our [donation](/donations/third-option-foundation/) tracker on our website with the cleared check information.  The final donation for February was <b>$165.72</b> USD.  It's a start, but we truly hope that we can build off of that next month and make a larger donation.
+Below is a collage of the transactions (click the picture to zoom).  Once the check clears, we'll be updating our [donation](/missions/third-option-foundation#tof-donations) tracker on our website with the cleared check information.  The final donation for February was <b>$165.72</b> USD.  It's a start, but we truly hope that we can build off of that next month and make a larger donation.
 
 {:refdef: style="text-align: center;"}
-![Donation](/img/tof/2022-02-26 -Scheduled-TOF-Donation.png){: .md__image id="2022-02" onclick="openModal(\"2022-02\")" style="width:649px;height:197px;"}
+![Donation](/img/tof/2022-02-26-TOF-Donation.jpg){: .md__image id="2022-02" onclick="openModal(\"2022-02\")" style="width:649px;height:197px;"}
 {: refdef}
 <br><br> 
 

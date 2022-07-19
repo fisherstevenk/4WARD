@@ -378,6 +378,32 @@ a:focus i.animated {
   min-height: 100vh;
 }
 
+.no-webp .catalyst-section {
+  width: 100%;
+  padding: 125px 0;
+  color: rgb(255, 255, 255);
+  background: url(/img/catalyst/catalyst-background.jpeg) no-repeat center center fixed;
+  background-color: {{ site.color.primary-dark }};
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+}
+
+.webp .catalyst-section {
+  width: 100%;
+  padding: 125px 0;
+  color: rgb(255, 255, 255);
+  background: url(/img/catalyst/catalyst-background.webp) no-repeat center center fixed;
+  background-color: {{ site.color.primary-dark }};
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+}
+
 .no-webp .ca-donation-section {
   width: 100%;
   padding: 100px 0;
@@ -910,8 +936,4 @@ th {
 .center-flex {
   display: flex;
   align-items:center
-}
-.fa-caret-right {
-  color: #ff9a00;
-  cursor: default !important;
 }
