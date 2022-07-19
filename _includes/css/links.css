@@ -61,6 +61,19 @@ a:focus span {
   cursor: default !important;
 }
 
+.btn-default {
+  border: 1px solid #ffb200;
+  color: #ffb200;
+  background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  outline: 0;
+  border: 1px solid #b37d00;
+  color: #b37d00;
+}
+
 /** Captive Audience **/
 body.ca .navbar-custom .navbar-brand:focus,
 body.ca .navbar-custom .navbar-brand:hover {
@@ -118,6 +131,17 @@ body.ca a:focus i,
 body.ca a:hover span,
 body.ca a:focus span {
   color: #1b8d46 !important;
+}
+
+body.ca .btn-default {
+  border: 1px solid #4ef58d;
+  color: #4ef58d;
+  background-color: transparent;
+}
+
+body.ca .btn-default:hover,
+body.ca .btn-default:focus {
+  border: 1px solid #1b8d46;
 }
 /**  End Captive Audience **/
 
@@ -179,6 +203,17 @@ body.tof a:hover span,
 body.tof a:focus span {
   color: #880000 !important;
 }
+
+body.tof .btn-default {
+  border: 1px solid #FF0000;
+  color: #FF0000;
+  background-color: transparent;
+}
+
+body.tof .btn-default:hover,
+body.tof .btn-default:focus {
+  border: 1px solid #880000;
+}
 /**  End TOF **/
 
 /** FreeLoaderz **/
@@ -239,6 +274,18 @@ body.freeloaderz a:hover span,
 body.freeloaderz a:focus span {
   color: #2b90c3 !important;
 }
+
+body.freeloaderz .btn-default {
+  border: 1px solid #df4863;
+  color: #df4863;
+  background-color: transparent;
+}
+
+body.freeloaderz .btn-default:hover,
+body.freeloaderz .btn-default:focus {
+  border: 1px solid #2b90c3;
+}
+
 /**  End FreeLoaderz **/
 
 /** Mehen **/
@@ -304,5 +351,17 @@ body.mehen .fa-caret-right {
   color: #0091e6;
   cursor: default !important;
 }
+
+body.mehen .btn-default {
+  border: 1px solid #51beff;
+  color: #51beff;
+  background-color: transparent;
+}
+
+body.mehen .btn-default:hover,
+body.mehen .btn-default:focus {
+  border: 1px solid #0091e6;
+}
+
 /**  End Mehen **/
 
