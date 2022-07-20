@@ -62,7 +62,7 @@
 </head>
 
 <body class="catalyst" id="home" data-spy="scroll" data-target=".navbar-fixed-top">
-        <!-- Navigation -->
+    <!-- Navigation -->
 <nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container-lg">
         <div class="navbar-header" style="margin-left:25px">
@@ -76,27 +76,30 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="navbarSupportedContent" class="collapse navbar-collapse navbar-right navbar-main-collapse"
             style="margin-top: 5px;margin-right: 50px">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav full-menu">
                 <li class="hidden">
-                    <a class="page-scroll close-menu" href="/#home"></a>
+                    <a class="page-scroll" href="/#home"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="page-scroll close-menu" href="/#news" onclick="updateGoogle('news')">NEWS</a>
+                    <a class="page-scroll" href="/#news" onclick="updateGoogle('news')">NEWS</a>
                 </li>
                 <li class="nav-item">
                     <a class="page-scroll">COMMUNITY</a>
                     <ul class="dropdown">
                         <li class="nav-item">
-                            <a class="close-menu" href="/community/4ward/" onclick="updateGoogle('4ward')">ADA for Warriors</a>
+                            <a class="page-scroll" href="/community/4ward/" onclick="updateGoogle('4ward')">ADA for
+                                Warriors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="close-menu" href="/community/freeloaderz/" onclick="updateGoogle('freeloaderz')">FreeLoaderz</a>
+                            <a class="page-scroll" href="/community/freeloaderz/"
+                                onclick="updateGoogle('freeloaderz')">FreeLoaderz</a>
                         </li>
                         <li class="nav-item">
-                            <a class="close-menu" href="/community/mehen/" onclick="updateGoogle('mehen')">Mehen</a>
+                            <a class="page-scroll" href="/community/mehen/" onclick="updateGoogle('mehen')">Mehen</a>
                         </li>
                         <li class="nav-item">
-                            <a class="close-menu" href="/community/catalyst/" onclick="updateGoogle('catalyst')">Project Catalyst</a>
+                            <a class="page-scroll" href="/community/catalyst/"
+                                onclick="updateGoogle('catalyst')">Project Catalyst</a>
                         </li>
                     </ul>
                 </li>
@@ -104,12 +107,56 @@
                     <a class="page-scroll">MISSIONS</a>
                     <ul class="dropdown">
                         <li class="nav-item">
-                            <a class="close-menu" href="/missions/third-option-foundation/" onclick="updateGoogle('tof')">Third Option Foundation</a>
+                            <a class="page-scroll" href="/missions/third-option-foundation/"
+                                onclick="updateGoogle('tof')">Third Option Foundation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="close-menu" href="/missions/captive-audience/" onclick="updateGoogle('ca')">Captive Audience</a>
+                            <a class="page-scroll" href="/missions/captive-audience/"
+                                onclick="updateGoogle('ca')">Captive Audience</a>
                         </li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="/about/faqs" onclick="updateGoogle('faq')">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#contact" onclick="updateGoogle('contact')">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav hidden blackdiv small-menu">
+                <li class="hidden">
+                    <a class="page-scroll" href="/#home"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="/#news" onclick="updateGoogle('news')">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-weight: bold">COMMUNITY</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/community/4ward/" onclick="updateGoogle('4ward')">ADA for Warriors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/community/freeloaderz/"
+                        onclick="updateGoogle('freeloaderz')">FreeLoaderz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/community/mehen/" onclick="updateGoogle('mehen')">Mehen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/community/catalyst/" onclick="updateGoogle('catalyst')">Project
+                        Catalyst</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-weight: bold">MISSIONS</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/missions/third-option-foundation/" onclick="updateGoogle('tof')">Third
+                        Option Foundation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" style="margin-left: 20px" href="/missions/captive-audience/" onclick="updateGoogle('ca')">Captive
+                        Audience</a>
                 </li>
                 <li class="nav-item">
                     <a class="page-scroll" href="/about/faqs" onclick="updateGoogle('faq')">FAQs</a>
@@ -122,7 +169,8 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-    <a href="#home" class="page-scroll" title="Go to top"><i class="fas fa-arrow-alt-circle-up invisible animated"></i></a>
+    <a href="#home" class="page-scroll" title="Go to top"><i
+            class="fas fa-arrow-alt-circle-up invisible animated"></i></a>
 </nav>
     <section id="catalyst">
         <div class="catalyst-section">
