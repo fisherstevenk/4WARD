@@ -27,8 +27,8 @@ $(function () {
 });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function () {
-    $('.navbar-toggle:visible').click();
+$('.navbar-collapse ul li a.page-scroll').click(function () {
+  //  $('.navbar-toggle:visible').click();
 });
 
 // remove the focused state after click,
@@ -38,14 +38,11 @@ $("a").mouseup(function () {
 })
 
 function screenResize() {
-    var dropdowns = document.getElementsByClassName("dropdown");
     if ($(window).innerWidth() > 1100) {
-        $(".navbar-main-collapse").removeClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden").addClass("hidden");
         $(".small-menu").removeClass("hidden").addClass("hidden");
         $(".full-menu").removeClass("hidden")
     } else {
-        $(".navbar-main-collapse").removeClass("blackdiv").addClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden");
         $(".small-menu").removeClass("hidden");
         $(".full-menu").removeClass("hidden").addClass("hidden");
@@ -59,6 +56,6 @@ $(window).resize(function () {
     screenResize();
 });
 
-$('.navbar-collapse a').click(function () {
+$('.navbar-collapse a.page-scroll').click(function () {
     $(".navbar-collapse").collapse('hide');
 });
