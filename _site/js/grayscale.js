@@ -27,7 +27,7 @@ $(function () {
 });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a.page-scroll').click(function () {
+$('.navbar-collapse ul li a.hide-menu').click(function () {
   //  $('.navbar-toggle:visible').click();
 });
 
@@ -56,6 +56,6 @@ $(window).resize(function () {
     screenResize();
 });
 
-$('.navbar-collapse a.page-scroll').click(function () {
+$('.navbar-collapse a.hide-menu').click(function () {
     $(".navbar-collapse").collapse('hide');
 });

@@ -613,7 +613,9 @@ body {
   border: none;
 }
 
-a.page-scroll {
+a.page-scroll,
+a.hide-menu,
+a.menu-item {
   font-weight: bold;
 }
 
