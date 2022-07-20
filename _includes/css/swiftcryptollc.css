@@ -155,29 +155,6 @@ h2 a {
   background: rgba(255, 255, 255, .1);
 }
 
-
-.btn-black-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 35px;
-  font-size: 40px;
-  color: rgb(0, 0, 0);
-  background: 0 0;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
-}
-
-.btn-black-circle:hover,
-.btn-black-circle:focus {
-  outline: 0;
-  color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, .1);
-}
-
 a i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
@@ -567,19 +544,6 @@ a:focus i.animated {
   transition: all .3s ease-in-out;
 }
 
-.btn-default {
-  border: 1px solid {{site.color.links}};
-  color: {{site.color.links}};
-  background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-  outline: 0;
-  color: {{site.color.primary-dark}};
-  background-color: {{site.color.links}};
-}
-
 ul.banner-social-buttons {
   margin-top: 0;
 }
@@ -696,11 +660,19 @@ ul li ul {
   display: none;
   width: 400px;
   padding-left: 15px;
+  z-index: 999;
 }
 
 ul li:hover>ul,
+ul li:active>ul,
+ul li:focus>ul,
+ul li a:active>ul,
+ul li a:focus>ul,
+ul li a:hover>ul,
 ul li:focus-within>ul,
-ul li ul:hover {
+ul li ul:hover,
+ul li ul:focus,
+ul li ul:active {
   visibility: visible;
   opacity: 1;
   position: absolute;
@@ -924,6 +896,12 @@ ul li {
 
 .blackdiv {
   background-color: black;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  max-height: 100vh !important;
+  max-width: 100vw !important;
 }
 
 p,

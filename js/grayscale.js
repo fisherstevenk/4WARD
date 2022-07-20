@@ -38,10 +38,23 @@ $("a").mouseup(function(){
 })
 
 function screenResize() {
+    var dropdowns = document.getElementsByClassName("dropdown");
     if($(window).innerWidth() > 1100) {
+        $(".navbar-main-collapse").removeClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden").addClass("hidden");
+        for (var i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].style.display = "none";
+            dropdowns[i].style.visibility = "hidden";
+            dropdowns[i].style.opacity = "0";
+          }
     } else {
+        $(".navbar-main-collapse").removeClass("blackdiv").addClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden");
+        for (var i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].style.display = "inline-block";
+            dropdowns[i].style.visibility = "visible";
+            dropdowns[i].style.opacity = "1";
+          }
     }
 }
 
