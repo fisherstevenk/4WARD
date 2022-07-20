@@ -681,7 +681,7 @@ ul li ul:active {
   visibility: visible;
   opacity: 1;
   position: absolute;
-  display: inline-block;
+  display: block;
 }
 
 ul li ul li {

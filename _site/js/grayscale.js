@@ -27,7 +27,7 @@ $(function() {
 });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a.close-menu').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
@@ -42,19 +42,19 @@ function screenResize() {
     if($(window).innerWidth() > 1100) {
         $(".navbar-main-collapse").removeClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden").addClass("hidden");
-        for (var i = 0; i < dropdowns.length; i++) {
-            dropdowns[i].style.display = "none";
-            dropdowns[i].style.visibility = "hidden";
-            dropdowns[i].style.opacity = "0";
-          }
+      for (var i = 0; i < dropdowns.length; i++) {
+           dropdowns[i].style.display = "none";
+          dropdowns[i].style.visibility = "hidden";
+        dropdowns[i].style.opacity = "0";
+       }
     } else {
-        $(".navbar-main-collapse").removeClass("blackdiv").addClass("blackdiv");
+      $(".navbar-main-collapse").removeClass("blackdiv").addClass("blackdiv");
         $(".navbar-toggler").removeClass("hidden");
         for (var i = 0; i < dropdowns.length; i++) {
             dropdowns[i].style.display = "inline-block";
             dropdowns[i].style.visibility = "visible";
             dropdowns[i].style.opacity = "1";
-          }
+       }
     }
 }
 
@@ -65,6 +65,6 @@ $(window).resize(function() {
     screenResize();
   });
 
-  $('.navbar-collapse a').click(function(){
+  $('.navbar-collapse a.close-menu').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
