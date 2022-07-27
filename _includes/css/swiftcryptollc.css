@@ -517,6 +517,11 @@ a:focus i.animated {
   min-height: 100vh;
 }
 
+.container div.row {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
 .left-container {
   margin-left: 45px !important;
 }
