@@ -7,15 +7,16 @@ If you would like to help Captive Audience and their mission, please delegate wi
 
 ## 2022 Donations 340 ₳ ##
 
-### _July Estimated Donations: 255 ₳_ ###
+### _July Estimated Donations: 340 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
+| July | 353 | 1 | 340 ₳ | 85 ₳ |
 | July | 351 | 1 | 340 ₳ | 85 ₳ |
 | July | 349 | 1 | 340 ₳ | 85 ₳ |
 | July | 348 | 2 | 340 ₳ | 85 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 4 | 1020 ₳ | 255 ₳ |
+| | Total | 5 | 1360 ₳ | 340 ₳ |
 
 <br />
 
