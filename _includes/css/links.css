@@ -441,3 +441,90 @@ body.mehen i:hover.fa-bars {
 }
 
 /**  End Mehen **/
+
+/** 500 Rising **/
+body.rising .navbar-custom .navbar-brand:focus,
+body.rising .navbar-custom .navbar-brand:hover {
+  outline: 0;
+  color: #3641d9 !important;
+}
+
+body.rising .navbar-custom .navbar-brand .navbar-toggle:focus,
+body.rising .navbar-custom .navbar-brand .navbar-toggle:active {
+  color: #3641d9 !important;
+  background-color: transparent !important;
+}
+
+
+body.rising .navbar-custom .nav li a:hover,
+body.rising .navbar-custom .nav li a:focus,
+body.rising .navbar-custom .nav li.active a,
+body.rising h2:hover a,
+body.rising h2:focus a {
+  color: #3641d9 !important;
+  text-decoration: underline !important;
+}
+
+body.rising h2,
+body.rising h3,
+body.rising h4,
+body.rising h5,
+body.rising h6 {
+  color: black;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+body.rising a,
+body.rising a i,
+body.rising a span {
+  color: #3641d9;
+  text-decoration: none;
+  background-color: transparent !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+body.rising a:hover,
+body.rising a:focus {
+  color: #232974 !important;
+  text-decoration: underline !important;
+}
+
+body.rising a:hover i,
+body.rising a:focus i,
+body.rising a:hover span,
+body.rising a:focus span {
+  color: #232974 !important;
+}
+
+body.rising .btn-default {
+  border: 1px solid #3641d9;
+  color: #3641d9;
+  background-color: transparent;
+}
+
+body.rising .btn-default:hover,
+body.rising .btn-default:focus {
+  border: 1px solid #232974;
+}
+
+body.rising button.navbar-toggler,
+body.rising i.fa-bars {
+  background-color: #3641d9;
+  color: white;
+}
+
+body.rising button:focus.navbar-toggler,
+body.rising button:hover.navbar-toggler,
+body.rising i:focus.fa-bars,
+body.rising i:active.fa-bars,
+body.rising i:hover.fa-bars {
+  background-color: #232974;
+}
+
+/**  End 500 Rising **/

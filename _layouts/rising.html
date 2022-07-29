@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="rising" id="home" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    <section id="rising">
+        <div class="rising-intro-section">
+            <div class="container text-left ms-auto me-auto">
+                <div class="center-flex">
+                    <img src="/img/rising/500logo.png" class="logo-img">
+                </div>
+                <p>Our ADA for Warriors pool donates 10% of the pool operator rewards to 500 Rising. 
+                    Donations are typically made during the last epoch of each month that our pool was active.</p>
+                <p></p>
+                <p>To learn more about their mission, please visit their <a class=""
+                        href="https://500rising.com/" target="_blank"
+                        onclick="updateGoogle('500rising')">website</a>.</p>
+                <div class="text-center">
+                    <a href="#rising-donations" class="btn btn-circle page-scroll" onclick="updateGoogle('rising-donations')"
+                    title="Donation Information">
+                        <i class="fas fa-angle-double-down animated" style="text-shadow: none !important;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rising-donations" class="rising-donation-section container text-left">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>{{ page.title }}</h2>
+                {{ content }}
+            </div>
+        </div>
+    </section>
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    {% include modal.html %}
+</body>
+
+</html>

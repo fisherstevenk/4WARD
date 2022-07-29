@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "New Mission and Donation Updates!"
+---
+<br> 
+So far we've been extremely successful with our ADA for Warriors missions.  This year we've donated $1399.29 to the [Third Option Foundation](/missions/third-option-foundation#tof-donations) and 595 ADA to [Captive Audience](/missions/captive-audience#ca-donations).  Thank you to all of our delegates in helping make these missions a success!
+<br/><br/>
+For August, we are making some adjustments to our missions.  We are adding [500 Rising](/missions/500-rising) to our list of missions.  Our intention is to help 500 Rising raise awareness about the stubborn statistics of violence against women.
+
+With that addition, we will be changing our donation percentages for each mission:
+
+<ul>
+<li><i class="fas fa-caret-right"></i> Third Option Foundation will be changed from 50% to 30%</li>
+<li><i class="fas fa-caret-right"></i> Captive Audience will be changed from 25% to 10%</li>
+<li><i class="fas fa-caret-right"></i> 500 Rising will be set at 10%</li>
+</ul>
+<br/>
+500 Rising's first mission is to train female instructors in essential self-defense (however, they do invite and encourage men to get involved). They support these women as they reach out to their communities and networks to make a difference in the stubborn statistics of violence against women.
+<br /><br />
+To quote their website:
+<figure>
+    <blockquote>
+        <div class="quote-line-container">
+            <p class="quote">Sexual violence, in whatever form, is rarely about lust and sexual pleasure for the
+                      sake of enjoyment. It is about power and control. Power is a primitive drive in humans as without
+                      personal authority, we do not survive to adulthood.</p>
+            <p class="quote">This is critical. Believing power is a zero sum game is actively paying homage to a
+                      myth. Changing the statistics in violence against women, and quite possibly violence in general,
+                      is understanding this crosscultural, deeply held myth is just that. A myth.</p>
+            <p class="quote">Power is not a zero sum game. If you act as an agent of personal authority, it does
+                      nothing to detract from my personal authority unless I choose to allow it.</p>
+        </div>
+    </blockquote>
+    <figcaption style="float:right !important"><cite style="font-size:20px !important">-500 Rising</cite>
+    </figcaption>
+</figure>
+<br/><br/>
+We hope that you choose to learn more about 500 Rising and what they are doing.  Keep a look out for updates regarding classes and training opportunities as we will post them on our [social media accounts](#contact) as they become available.
