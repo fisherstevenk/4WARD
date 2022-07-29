@@ -5,19 +5,32 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2022 Donations $1035.58 ##
+## 2022 Donations $1399.29 ##
 
-### _July/August 2022 Estimated Donations: 850 ₳_ ###
+### _August 2022 Estimated Donations: 102 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| July | 353 | 1 | 340 ₳ | 170 ₳ |
+| July | 353 | 1 | 340 ₳ | 102 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 1 | 340 ₳ | 102 ₳ |
+
+<br />
+
+### July 2022 Donation Receipt: $363.71 (680 ₳) ###
+
+{:refdef: style="text-align: center;"}
+![Donation](/img/tof/2022-07-29-TOF-Donation.jpg){: .md__image id="2022-07" onclick="openModal(\"2022-07\")" style="width:180px;height:255px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
 | July | 351 | 1 | 340 ₳ | 170 ₳ |
 | July | 349 | 1 | 340 ₳ | 170 ₳ |
 | July | 348 | 2 | 340 ₳ | 170 ₳ |
 | June | 341 | 1 | 340 ₳ | 170 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 6 | 2040 ₳ | 850 ₳ |
+| | Total | 5 | 1700 ₳ | 680 ₳ |
 
 <br />
 
