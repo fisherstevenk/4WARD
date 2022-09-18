@@ -7,13 +7,15 @@ If you would like to help 500 Rising and their mission, please delegate with our
 
 ## 2022 Donations 0 ₳ ##
 
-### _August 2022 Estimated Donations: 34 ₳_ ###
+### _August/September 2022 Estimated Donations: 102 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| July | 353 | 1 | 340 ₳ | 34 ₳ |
+| September | 360 | 1 | 340 ₳ | 34 ₳ |
+| August | 354 | 1 | 340 ₳ | 34 ₳ |
+| August | 353 | 1 | 340 ₳ | 34 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 340 ₳ | 34 ₳ |
+| | Total | 1 | 1020 ₳ | 102 ₳ |
 
 <br /><br />
 {:refdef: style="font-size: 16px"}

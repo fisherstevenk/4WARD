@@ -7,13 +7,15 @@ If you would like to help honor the sacrifices they've made for our country, ple
 
 ## 2022 Donations $1399.29 ##
 
-### _August 2022 Estimated Donations: 102 ₳_ ###
+### _August/September 2022 Estimated Donations: 204 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| July | 353 | 1 | 340 ₳ | 102 ₳ |
+| September | 360 | 1 | 340 ₳ | 102 ₳ |
+| August | 354 | 1 | 340 ₳ | 102 ₳ |
+| August | 353 | 1 | 340 ₳ | 102 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 340 ₳ | 102 ₳ |
+| | Total | 1 | 1020 ₳ | 306 ₳ |
 
 <br />
 

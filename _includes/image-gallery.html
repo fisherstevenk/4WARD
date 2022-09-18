@@ -1,0 +1,18 @@
+<style>
+    .image-gallery {
+        border: none;
+    box-shadow: none;
+    text-decoration: none;
+    border-radius: 0;
+    background: transparent;
+}
+</style>
+
+<div class="image-gallery">
+    {% for file in site.static_files %}
+    {% if file.path contains include.folder %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}
+    {% assign filenameparts = file.path | split: "/" %}{% assign filename = filenameparts | last | replace: file.extname,"" %}
+        <img class="md__image"  style="margin-bottom: 10px" src="{{ file.path }}" id="{{ filename }}" onclick="openModal('{{ filename }}')" width="50%" height="50%" alt="{{ filename }}"/>
+    {% endif %}{% endif %}{% endfor %}
+</div>
