@@ -7,15 +7,19 @@ If you would like to help 500 Rising and their mission, please delegate with our
 
 ## 2022 Donations 0 ₳ ##
 
-### _August/September 2022 Estimated Donations: 102 ₳_ ###
+### _August - October 2022 Estimated Donations: 204 ₳_ ###
+_We've been holding the donations in hopes that the ADA price rebounds a bit. No matter what, we will make a donation before the year ends._
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
+| October | 368 | 1 | 340 ₳ | 34 ₳ |
+| October | 366 | 1 | 340 ₳ | 34 ₳ |
+| September | 363 | 1 | 340 ₳ | 34 ₳ |
 | September | 360 | 1 | 340 ₳ | 34 ₳ |
 | August | 354 | 1 | 340 ₳ | 34 ₳ |
 | August | 353 | 1 | 340 ₳ | 34 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 1020 ₳ | 102 ₳ |
+| | Total | 6 | 2040 ₳ | 204 ₳ |
 
 <br /><br />
 {:refdef: style="font-size: 16px"}

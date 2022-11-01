@@ -7,13 +7,16 @@ If you would like to help Captive Audience and their mission, please delegate wi
 
 ## 2022 Donations 663 ₳ ##
 
-### _September 2022 Estimated Donations: 34 ₳_ ###
+### _September - October 2022 Estimated Donations: 136 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
+| October | 368 | 1 | 340 ₳ | 34 ₳ |
+| October | 366 | 1 | 340 ₳ | 34 ₳ |
+| September | 363 | 1 | 340 ₳ | 34 ₳ |
 | September | 360 | 1 | 340 ₳ | 34 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 340 ₳ | 34 ₳ |
+| | Total | 4 | 1360 ₳ | 136 ₳ |
 
 <br />
 
