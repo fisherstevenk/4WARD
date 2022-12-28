@@ -5,13 +5,24 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2022 Donations $1399.29 ##
+## 2022 Donations $1795.56 ##
 
-### _August - October 2022 Estimated Donations: 612 ₳_ ###
-_We've been holding the donations in hopes that the ADA price rebounds a bit. No matter what, we will make a donation before the year ends._
+### August - December 2022 Donations: $396.27 (1530 ₳) ###
+_We held the donations in hopes that the ADA price rebounds a bit. Unfortunately, it hasn't... Our end of year donation is being made with ADA at $.259, $.259 * 1530 = $396.27_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2022-12-27-ADA.jpg){: .md__image id="2022-12-27-ADA" onclick="openModal(\"2022-12-27-ADA\")" style="width:320px;height:164px;"}
+![Donation](/img/tof/2022-12-27-TOF-Donation.jpg){: .md__image id="2022-12-27-TOF" onclick="openModal(\"2022-12-27-TOF\")" style="width:233px;height:123px;"}
+{: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
+| December | 383 | 2 | 340 ₳ | 102 ₳ |
+| December | 382 | 1 | 340 ₳ | 102 ₳ |
+| December | 381 | 1 | 340 ₳ | 102 ₳ |
+| December | 379 | 1 | 340 ₳ | 102 ₳ |
+| November | 377 | 1 | 340 ₳ | 102 ₳ |
+| November | 373 | 3 | 340 ₳ | 102 ₳ |
 | October | 368 | 1 | 340 ₳ | 102 ₳ |
 | October | 366 | 1 | 340 ₳ | 102 ₳ |
 | September | 363 | 1 | 340 ₳ | 102 ₳ |
@@ -19,7 +30,7 @@ _We've been holding the donations in hopes that the ADA price rebounds a bit. No
 | August | 354 | 1 | 340 ₳ | 102 ₳ |
 | August | 353 | 1 | 340 ₳ | 102 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 6 | 2040 ₳ | 612 ₳ |
+| | Total | 15 | 5100 ₳ | 1530 ₳ |
 
 <br />
 

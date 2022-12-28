@@ -5,7 +5,26 @@ title:  "Captive Audience Donations"
 If you would like to help Captive Audience and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2022 Donations 799 ₳ ##
+## 2022 Donations 1105 ₳ ##
+
+### November - December 2022 Donation Total: 306 ₳ ###
+
+{:refdef: style="text-align: center;"}
+![Donation](/img/ca/2022-12-27-CA-Donation.jpg){: .md__image id="2022-12-27" onclick="openModal(\"2022-12-27\")" style="width:370px;height:91px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| December | 383 | 2 | 340 ₳ | 34 ₳ |
+| December | 382 | 1 | 340 ₳ | 34 ₳ |
+| December | 381 | 1 | 340 ₳ | 34 ₳ |
+| December | 379 | 1 | 340 ₳ | 34 ₳ |
+| November | 377 | 1 | 340 ₳ | 34 ₳ |
+| November | 373 | 3 | 340 ₳ | 34 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 9 | 3060 ₳ | 306 ₳ |
+
+<br />
 
 ### September - October 2022 Donation Total: 136 ₳ ###
 

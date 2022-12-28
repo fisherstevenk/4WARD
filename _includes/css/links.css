@@ -470,7 +470,7 @@ body.rising h3,
 body.rising h4,
 body.rising h5,
 body.rising h6 {
-  color: black;
+  color: #414eff;
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
