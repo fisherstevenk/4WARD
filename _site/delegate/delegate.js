@@ -329,14 +329,23 @@ class WalletService {
     finishedWalletCalls() {
         var headers = {
             "Content-Type": "application/json",
-            "Authorization": ""
+            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjozMTg3OTg5NTQ1Mzl9.GuduKuWlIRtzNBDBI4FGWBua45ysiugdSve3AZ-5EWvQnoyLvCwlUkLibR6Zb66MHE5fMOAVmNMn3ZHgV-hGig"
         };
         var url = '/rwdbuild/tx/stakedelegation';
-        console.log(globalThis.wallet);
-        //            return lastValueFrom(this.httpClient
-        //              .post(url, globalThis.wallet, { headers: headers }))
-        //            .then(function (res) { return _this.processResponse(res); })
-        //          .catch(this.handleError);        
+
+        const xhr = new XMLHttpRequest();
+xhr.open("POST", url);
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+xhr.setRequestHeader("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjozMTg3OTg5NTQ1Mzl9.GuduKuWlIRtzNBDBI4FGWBua45ysiugdSve3AZ-5EWvQnoyLvCwlUkLibR6Zb66MHE5fMOAVmNMn3ZHgV-hGig");
+xhr.onload = () => {
+    if (xhr.readyState == 4 && xhr.status == 201) {
+      return _this.processResponse(xhr.responseText);
+    } else {
+      console.log(`Error: ${xhr.status}`);
+    }
+  };
+  xhr.send(globalThis.wallet);
         document.body.style.cursor = "";
     }
 }
