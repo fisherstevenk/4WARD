@@ -262,10 +262,19 @@ Thank you delegators for helping this all be possible, and thank you Captive Aud
         <div class="contact-info-section">
             <div class="container text-center ms-auto me-auto">
                 <h2>Contact</h2>
-                <p>Visit our <a href="https://www.swiftcryptollc.com" target="_blank" onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
                 <p>Please contact us if you have questions or if you would like additional information regarding the 4WARD pool.</p>
                 <p><a href="mailto:info@swiftcryptollc.com">info@swiftcryptollc.com</a>
                 </p>
+       <!--         <div class="haswallets" style="margin-bottom: 2em">
+                    <p>Delegate with us by clicking your wallet below!</p>
+                    <div style="display: flex;background: transparent!important;max-width: 240px;margin-left:auto;margin-right:auto">
+                        <button class="delegate" eternl style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/eternl.png" alt="Eternl" title="Delegate with your Eternl wallet"></img></button>
+                        <button class="delegate" nami style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/nami.png" alt="Nami" title="Delegate with your Nami wallet"></img></button>
+                        <button class="delegate" flint style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/flint.png" alt="Flint" title="Delegate with your Flint wallet"></img></button>
+                        <button class="delegate" gero style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/gero.png" alt="Gero" title="Delegate with your Gero wallet"></img></button>
+                        </div>
+                </div>
+                <div class="nowallets" style="display: none"><p>Install the Eternl, Nami, Flint, or Gero browser extension to delegate with us!</p></div> -->
                 <ul class="list-inline banner-social-buttons">
                     
                     <li>
@@ -293,15 +302,14 @@ Thank you delegators for helping this all be possible, and thank you Captive Aud
                     </li>
                     
                 </ul>
-                <iframe width="500" height="380" frameborder="0"
-                src="https://js.adapools.org/widget-dark.html?pool=b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"><a
-                    href="https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
-                    target="_blank" onclick="updateGoogle('adapools')">Detail</a></iframe>
+                <iframe width="500" height="320" frameborder="0" src="https://img.cexplorer.io/w/widget.html?pool=pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3&theme=dark"><a href="https://cexplorer.io/pool/pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3" onclick="updateGoogle('adapools')" >pool detail on cexplorer.io</a></iframe>                
             </div>
         </div>
     </section>
 
             <!-- Footer -->
+    <div id="toasterror">Server error encountered!</div>
+    <div id="toastsuccess">Thank you for becoming our newest delegator!</div>
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; 2021-2023 Swift Crypto LLC. All Rights Reserved.</p>
@@ -326,6 +334,8 @@ Thank you delegators for helping this all be possible, and thank you Captive Aud
     <!-- Modernizer JavaScript -->
     <script src="/js/modernizer.js" defer></script>
 
+    <!-- Delegate JavaScript -->
+    <script src="/delegate/delegate.js" defer></script>
  
         <!-- Place in layouts > partials > image-modal.html -->
 <!-- Use the partial at the bottom of any page in which you want magnific pop-up images,
