@@ -3,31 +3,27 @@
         <div class="contact-info-section">
             <div class="container text-center ms-auto me-auto">
                 <h2>Contact</h2>
-                <p>Visit our <a href="https://www.swiftcryptollc.com" target="_blank" onclick="updateGoogle('scllc')">Swift Crypto LLC</a> website for the latest crypto news and guides.</p>
                 <p>Please contact us if you have questions or if you would like additional information regarding the 4WARD pool.</p>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
                 <div class="haswallets" style="margin-bottom: 2em">
-                <p>Delegate with us!</p>
-                <div style="display: flex;background: transparent!important;width: 50vw;margin-left:auto;margin-right:auto">
-                    <button class="delegate" eternl style="margin-left:auto;margin-right:auto" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="25" height="25" src="delegate/images/eternl.png" alt="Eternl"></img></button>
-                    <button class="delegate" nami style="margin-left:auto;margin-right:auto" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="25" height="25" src="delegate/images/nami.png" alt="Nami"></img></button>
-                    <button class="delegate" flint style="margin-left:auto;margin-right:auto" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="25" height="25" src="delegate/images/flint.png" alt="Flint"></img></button>
-                    <button class="delegate" gero style="margin-left:auto;margin-right:auto" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="25" height="25" src="delegate/images/gero.png" alt="Gero"></img></button>
+                    <p>Delegate with us by clicking your wallet below!</p>
+                    <div style="display: flex;background: transparent!important;width: 50vw;margin-left:auto;margin-right:auto">
+                        <button class="delegate" eternl style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/eternl.png" alt="Eternl" title="Delegate with your Eternl wallet"></img></button>
+                        <button class="delegate" nami style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/nami.png" alt="Nami" title="Delegate with your Nami wallet"></img></button>
+                        <button class="delegate" flint style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/flint.png" alt="Flint" title="Delegate with your Flint wallet"></img></button>
+                        <button class="delegate" gero style="margin-left:auto;margin-right: auto;background-color: transparent;border-color: white;padding: 2px" type="button" delegate="pool1a7h89sr6ymj9g2a9tm6e6dddghl64tp39pj78f6cah5ewgd4px0"><img width="48" height="48" src="/delegate/images/gero.png" alt="Gero" title="Delegate with your Gero wallet"></img></button>
+                        </div>
                 </div>
-            </div>
                 <div class="nowallets" style="display: none"><p>Install the Eternl, Nami, Flint, or Gero browser extension to delegate with us!</p></div>
-                    <ul class="list-inline banner-social-buttons">
+                <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
                         <a href="{{ network.url }}"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
-                <iframe width="500" height="380" frameborder="0"
-                src="https://js.adapools.org/widget-dark.html?pool=b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"><a
-                    href="https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
-                    target="_blank" onclick="updateGoogle('adapools')">Detail</a></iframe>
+                <a href="https://cexplorer.io/pool/pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3" onclick="updateGoogle('adapools')" target="_blank"><img style="width:100%;max-width:500px" class="img-fluid" src="https://js.cexplorer.io/img/p-b-1/pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3.jpg" alt="cardano pool pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3"></a>
             </div>
         </div>
     </section>
