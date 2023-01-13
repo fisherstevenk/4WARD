@@ -392,4 +392,4 @@ window.addEventListener(
     },
     false
 );
-window.onerror = function (message) { alert(message); return true; }; 
+// window.onerror = function (message) { alert(message); return true; }; 
