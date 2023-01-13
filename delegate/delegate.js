@@ -202,14 +202,7 @@ class WalletService {
      */
     processNetworkId(data) {
         globalThis.wallet.network = data;
-        //     if (globalThis.wallet.network !== 0){
-        //        if (--this.numWalletCalls === 0) {
-        //       }
         this.updateWallet();
-        //    }
-        //   else {
-        //          alert("Please connect your mainnet wallet");
-        // }
     }
     /**
      * Process the reward addresses/stake addr
@@ -327,28 +320,48 @@ class WalletService {
      * @private
      */
     finishedWalletCalls() {
-        var headers = {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjozMTg3OTg5NTQ1Mzl9.GuduKuWlIRtzNBDBI4FGWBua45ysiugdSve3AZ-5EWvQnoyLvCwlUkLibR6Zb66MHE5fMOAVmNMn3ZHgV-hGig"
-        };
         var url = '/rwdbuild/tx/stakedelegation';
-
         const xhr = new XMLHttpRequest();
-xhr.open("POST", url);
-xhr.setRequestHeader("Content-Type", "application/json");
-xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
-xhr.setRequestHeader("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjozMTg3OTg5NTQ1Mzl9.GuduKuWlIRtzNBDBI4FGWBua45ysiugdSve3AZ-5EWvQnoyLvCwlUkLibR6Zb66MHE5fMOAVmNMn3ZHgV-hGig");
-xhr.onload = () => {
-    if (xhr.readyState == 4 && xhr.status == 201) {
-      return _this.processResponse(xhr.responseText);
-    } else {
-      console.log(`Error: ${xhr.status}`);
-    }
-  };
-  xhr.send(globalThis.wallet);
+        xhr.open("POST", url);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+        xhr.setRequestHeader("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjozMTg3OTg5NTQ1Mzl9.GuduKuWlIRtzNBDBI4FGWBua45ysiugdSve3AZ-5EWvQnoyLvCwlUkLibR6Zb66MHE5fMOAVmNMn3ZHgV-hGig");
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 201) {
+                return _this.processResponse(xhr.responseText);
+            } else {
+                console.log(`Error: ${xhr.status}`);
+                showError();
+            }
+        };
+  
+        xhr.send(JSON.stringify(globalThis.wallet));
         document.body.style.cursor = "";
     }
 }
+
+
+function showSuccess() {
+    // Get the snackbar DIV
+    var x = document.getElementById("toastsuccess");
+    // Add the "show" class to DIV
+    x.className = "show";
+  
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+
+
+function showError() {
+    // Get the snackbar DIV
+    var x = document.getElementById("toasterror");
+  
+    // Add the "show" class to DIV
+    x.className = "show";
+  
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
 
 window.addEventListener(
     'load',
