@@ -1,0 +1,4 @@
+---
+layout: post
+title:  "2023-01 500 Rising Level 2 Class Update"
+---
