@@ -446,12 +446,12 @@ body.mehen i:hover.fa-bars {
 body.rising .navbar-custom .navbar-brand:focus,
 body.rising .navbar-custom .navbar-brand:hover {
   outline: 0;
-  color: #3641d9 !important;
+  color: #000ed4 !important;
 }
 
 body.rising .navbar-custom .navbar-brand .navbar-toggle:focus,
 body.rising .navbar-custom .navbar-brand .navbar-toggle:active {
-  color: #3641d9 !important;
+  color: #000ed4 !important;
   background-color: transparent !important;
 }
 
@@ -461,7 +461,7 @@ body.rising .navbar-custom .nav li a:focus,
 body.rising .navbar-custom .nav li.active a,
 body.rising h2:hover a,
 body.rising h2:focus a {
-  color: #3641d9 !important;
+  color: #000ed4 !important;
   text-decoration: underline !important;
 }
 
@@ -481,7 +481,7 @@ body.rising h6 {
 body.rising a,
 body.rising a i,
 body.rising a span {
-  color: #3641d9;
+  color: #000ed4;
   text-decoration: none;
   background-color: transparent !important;
   -webkit-transition: all .2s ease-in-out;
@@ -503,8 +503,8 @@ body.rising a:focus span {
 }
 
 body.rising .btn-default {
-  border: 1px solid #3641d9;
-  color: #3641d9;
+  border: 1px solid #000ed4;
+  color: #000ed4;
   background-color: transparent;
 }
 
@@ -515,7 +515,7 @@ body.rising .btn-default:focus {
 
 body.rising button.navbar-toggler,
 body.rising i.fa-bars {
-  background-color: #3641d9;
+  background-color: #000ed4;
   color: white;
 }
 

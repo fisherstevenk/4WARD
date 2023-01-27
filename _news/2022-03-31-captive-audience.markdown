@@ -20,7 +20,7 @@ To quote their website:
             <p class="quote">By supporting Captive Audience, you’re offering tangible assistance to equip Ukrainians on the ground."</p>
         </div>
     </blockquote>
-    <figcaption style="float:right !important"><cite style="font-size:24px !important">-Captive Audience</cite></figcaption>
+    <figcaption style="float:right !important"><cite style="font-size:24px !important"><p>-Captive Audience</p></cite></figcaption>
 </figure>
 <br />
 <br />

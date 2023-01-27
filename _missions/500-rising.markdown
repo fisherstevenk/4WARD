@@ -33,5 +33,5 @@ _Our end of year donation on 2022-12-2022 is being made with ADA at $.259, $.259
 
 <br /><br />
 {:refdef: style="font-size: 16px"}
-_*Data verification can be done by checking our pool data over at [ADA Pools](https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80#tab-rewards){:target="_blank" class=""}_
+_*Data verification can be done by checking our pool data over at [CExplorer](https://cexplorer.io/pool/pool1kcrr7re05pwesye0zh00a4xxnsrw5c29rd82fn4qecdcqu5rue3/rewards#data){:target="_blank" class=""}_
 {: refdef}
