@@ -5,10 +5,41 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
+## 2023 Donations $57.80 ##
+
+### _March 2023 Estimated Donations: $? (34 ₳)_ ###
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| February | 396 | 19 | 340 ₳ | 34 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 19 | 340 ₳ | 34 ₳ |
+
+<br />
+
+### January - February 2023 Donations: $57.80 (170 ₳) ###
+_Donation on 2023-03-05 is being made with ADA at $.34, $.34 * 170 = $57.80._
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2023-03-05-500-Donation.jpg){: .md__image id="2023-03-05-500" onclick="openModal(\"2023-03-05-500\")" style="width:275px;height:200px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| February | 395 | 19 | 340 ₳ | 34 ₳ |
+| February | 394 | 10 | 340 ₳ | 34 ₳ |
+| February | 393 | 10 | 340 ₳ | 34 ₳ |
+| February | 392 | 18 | 340 ₳ | 34 ₳ |
+| January | 388 | 1 | 340 ₳ | 34 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 58 | 1700 ₳ | 170 ₳ |
+
+<br />
+
 ## 2022 Donations $132.09 (510 ₳) ##
 
 ### August - December 2022 Donations: $132.09 (510 ₳) ###
-_Our end of year donation on 2022-12-2022 is being made with ADA at $.259, $.259 * 510 = $132.09._
+_Our end of year donation on 2022-12-27 is being made with ADA at $.259, $.259 * 510 = $132.09._
 
 {:refdef: style="text-align: center;"}
 ![Donation](/img/rising/2022-12-27-500-Donation.jpg){: .md__image id="2022-12-27" onclick="openModal(\"2022-12-27\")" style="width:337px;height:179px;"}
