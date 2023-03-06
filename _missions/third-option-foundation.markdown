@@ -5,6 +5,23 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
+## 2023 Donations $0 ##
+
+### January - February 2023 Donations: $0 (0 ₳) ###
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2023-03-05-TOF-Donation.jpg){: .md__image id="2023-03-05-TOF" onclick="openModal(\"2023-03-05-TOF\")" style="width:233px;height:123px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| February | 392 | 1 | 340 ₳ | 102 ₳ |
+| January | 388 | 1 | 340 ₳ | 102 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 15 | 5100 ₳ | 1530 ₳ |
+
+<br />
+
 ## 2022 Donations $1795.56 ##
 
 ### August - December 2022 Donations: $396.27 (1530 ₳) ###
