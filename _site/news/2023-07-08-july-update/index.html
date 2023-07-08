@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
         content="ADA for Warriors is a Cardano Staking Pool that supports the Third Option Foundation.  TOF is a nonprofit that supports CIA Paramilitary operators and their families.">
     <meta name="keywords"
         content="ADA, Cardano, cardano price, crypto, ada cardano, coinmarketcap, cryptocurrency, crypto news, 4WARD" />
-    <link rel="canonical" href="https://4ward.swiftcryptollc.com/">
+    <link rel="canonical" href="https://4ward.swiftcryptollc.com/news/2023-07-08-july-update/">
     <link rel="icon" href="/img/4ward-64x64.png">
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href=" /style.css">
@@ -60,8 +60,8 @@
         }
     </script>
 </head>
-    <body id="home" class="home" data-bs-spy="scroll" data-bs-target=".navbar-fixed-top">
-    <!-- Navigation -->
+    <body id="home" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- Navigation -->
 <nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container-lg">
         <div class="navbar-header" style="margin-left:25px">
@@ -178,69 +178,95 @@
     <a href="#home" class="page-scroll" title="Go to top"><i
             class="fas fa-arrow-alt-circle-up invisible animated"></i></a>
 </nav>
-        <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center">
-                        <h1 class="brand-heading">Welcome to<br>ADA for Warriors</h1>
-                        <p class="intro-text">A mission-driven single <a href="/community/4ward/" title="ADA for Warriors" onclick="updateGoogle('4ward')">pool</a> 
-                            for Cardano that donates a total of 50% of it's op's rewards to the <a href="/missions/third-option-foundation#tof-donations" title="Third Option Foundation Donation History" 
-                            onclick="updateGoogle('tof-donations')">Third Option Foundation</a>, 
-                            <a href="/missions/captive-audience#ca-donations" title="Captive Audience Donation History" onclick="updateGoogle('ca-donations')">Captive Audience</a>, and 
-                            <a href="/missions/500-rising#rising-donations" title="500 Rising Donation History" onclick="updateGoogle('rising-donations')">500 Rising</a>.<br>
-                        <a href="#news" class="btn btn-circle page-scroll" onclick="updateGoogle('news')">
-                            <i class="fas fa-angle-double-down animated" style="text-shadow: none !important;"></i>
-                        </a>
-                    </div>
+        <section id="post">
+            <div class="post-section">
+                <div class="container text-left ms-auto me-auto">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>2023-07 Meld Bank Manager, ADA Bounties, and 151k Pledge</h2>
+                    <i>News Date: 2023-07-08 00:00:00 -0400</i>
+                    <p><br /><br /></p>
+
+<h3 id="latest-news">Latest News</h3>
+
+<p>It’s been a while since I wrote an update. Between finally getting the Meld Bank Manager NFTs out, getting ADA Bounties to Mainnet, and trying to live life, not much time was left for other things. More projects are on the horizon, but it’s important to stop a second, reflect, and recharge.</p>
+
+<p>Let’s take a look back at these past 2 months..</p>
+
+<h3 id="meld-bank-manager-nft">Meld Bank Manager NFT</h3>
+
+<p>The <a href="https://meld.freeloaderz.io" target="_blank">Meld Bank Managers</a> were announced over one and a half years ago, maybe longer. In March of 2022, Meld and Freeloaderz got together to put out the Bank Managers. Meld was a big fan of what we were trying to do with Freeloaderz for the Cardano Community, so they wanted to support us.</p>
+
+<p>For various reasons, most of which delt with Meld’s bad luck with artists, the NFTs were delayed. Fast forward to Spring of this year and things were finally in order. I had the front end done for the site early on as it was just a build on to SmartClaimz. Initially we were working with Drasil, who we had partnered with for SmartClaimz, but Torben, (the lead dev) took a job with WMT. That didn’t leave a lot of time for anything else, we had to move forward. We talked with, and worked with, some others for a little while, but we ultimately decided to build the entire thing ourselves. I ended up writing the back end control server for the off chain handling as well as the back end on chain server, the full stack. Matt Plomin took on the bulk operations Meld needed for the NFTs. It took a little over a month, but everything finally came together, and on June 5th, we launched!</p>
+
+<p>The launch went fairly smooth. I did have to make some changes to the transaction creation. It seemed like every person with a “degen” wallet was trying to claim their Bank Manager. There were a ton of “min Babbage UTXO” errors. Eventually, I changed the logic to run through all four input strategies for the Cardano Serialization Library plus a custom one I wrote. Those changes ended up making the difference and things have been rolling since then.</p>
+
+<p>Part of our partnership with Meld was that Meld would give Freeloaderz a Gold Bank Manager and a couple other random Bank Manager NFTs. Freeloaderz manages load balancers for the Submit API and was running SmartClaimz. Both have (had for SmartClaimz, as we, unfortunately, shut down the site) monthly fees to pay. To raise some money, the Bank Managers were raffled off. We had one lucky winner for the Bank Manager and 5 other winners for one of the random other Bank Manager NFTs:</p>
+
+<p style="display:flex;text-align: center;"><img src="/img/meld/2023-07-gold-bm-raffle.jpg" alt="Meld" class="md__image" id="2023-07-gold-bm-raffle" onclick="openModal(&quot;2023-07-gold-bm-raffle&quot;)" style="width:334 px;height:195px;" /></p>
+
+<p><br /><br /></p>
+
+<h3 id="ada-bounties-is-on-mainnet">ADA Bounties is on Mainnet!</h3>
+
+<p><a href="https://adabounties.io" target="_blank">ADA Bounties</a> is our funded Catalyst Fund 9 project. This past week, we pushed ADA Bounties to Mainnet! We also submitted our Catalyst Close Out Report.</p>
+
+<p>I’ve been working on ADA Bounties since November of 2022. It really hasn’t been a long period of time, but I completed a ton of work to push it to Mainnet.</p>
+
+<p>With ADA Bounties, anyone can connect their Cardano Web3 wallet to create an account. They can then create bounties or claim bounties. The goal of the site is to bring people who need work done, together with those who want to get some work done. It’s a powerful platform but it needs to be used. I’m hopeful that between superior tech and the ADA Bounties social media presence, that it will get there.</p>
+
+<p>If you are on Twitter, follow the <a href="https://twitter.com/AdaBounties" target="_blank">@ADABounties</a> account to get the latest and greatest information about ADA Bounties.</p>
+
+<p><br /><br /></p>
+
+<h3 id="151k-pledge">151k Pledge</h3>
+
+<p>I’ve been putting the majority of my ADA Bounties Catalyst payments towards my ADA for Warriors pledge. Between the project funds and personal funding, I’ve been able to increase my pledge from 20k in November 2022, to 151k in June 2023. For the first year and a half in Cardano, I did all my work for free. It was a new community for me, so I felt that I had to establish myself. There are a lot of “developers” in the community, but those that can close out are few and far between. I trusted in myself and my work ethic, and it’s been paying off.</p>
+
+<p>I’m more than thankful to have the support of my family and the friends I’ve made along the way. Without them all, none of this would’ve happened. So, thank you.</p>
+
+<p style="display:flex;text-align: center;"><img src="/img/2023-07-08-pledge-info.jpg" alt="Pledge Info" class="md__image" id="2023-07-08-pledge-info" onclick="openModal(&quot;2023-07-08-pledge-info&quot;)" style="width:392px;height:247px;" /></p>
+
+<p><br /><br /></p>
+
+<h3 id="mission-donations">Mission Donations</h3>
+
+<p>May and June were good months for ADA for Warriors. The last epoch of the Cardano Foundation delegation is included in there. We also had some really good growth after receiving the CF delegation and are now creating blocks fairly regularly.</p>
+
+<p>For those that joined us this year, I sincerely thank you. You are helping to support some extremely important missions. For those that have been here longer than that, some even going way back to the beginning, you are my rocks. Thank you for that.</p>
+
+<p>With that growth, we’ve been adding to our pool pledge, but we haven’t changed our 340/0% fee and we won’t change it, (unless the parameters change of course).</p>
+
+<p>If you aren’t delegating with us, we sincerely hope that you consider it.</p>
+
+<p><br /><br />
+<em>(The USD donations to the Third Option Foundation and 500 Rising were calculated using the 2023-07-08 price of ~$.2890/₳)</em>
+<br /><br />
+Below is the amount donated to each mission on July 8th, 2023. Their links are included if you would like to donate directly to their causes.</p>
+
+<p><a href="https://www.thirdoptionfoundation.org/support-us#support" target="_blank">Third Option Foundation</a> $176.87</p>
+
+<p style="display:flex;text-align: center;"><img src="/img/tof/2023-07-08-TOF-Donation.jpg" alt="Donation" class="md__image" id="2023-07-08-TOF" onclick="openModal(&quot;2023-07-08-TOF&quot;)" style="width:348px;height:180px;" /></p>
+
+<p><a href="https://500rising.com/donate-1" target="_blank">500 Rising</a> $58.96</p>
+
+<p style="display:flex;text-align: center;"><img src="/img/rising/2023-07-08-500-Donation.jpg" alt="Donation" class="md__image" id="2023-07-08-500" onclick="openModal(&quot;2023-07-08-500&quot;)" style="width:308px;height:518px;" /></p>
+
+<p><a href="https://www.captiveaudienceptrt.com/support-ukraine-ocv" target="_blank">Captive Audience</a> 204 ₳</p>
+
+<p style="display:flex;text-align: center;"><img src="/img/ca/2023-07-08-CA-Donation.jpg" alt="Donation" class="md__image" id="2023-07-08-CA" onclick="openModal(&quot;2023-07-08-CA&quot;)" style="width:373px;height:126px;" /></p>
+<p><br /><br /></p>
+
+<h3 id="wrap-up">Wrap Up</h3>
+
+<p>In these past two months, we developed and deployed two gigantic projects for Mainnet, the <a href="https://meld.freeloaderz.io" target="_blank">Meld Bank Managers</a> and <a href="https://adabounties.io" target="_blank">ADA Bounties</a>.  I need a little time for myself and my family, but then it’ll be back to the grind. Mehen is the next to get rolled out.</p>
+
                 </div>
             </div>
         </div>
-    </header>
-
-        <!-- News Section -->
-    <section id="news" class="news news-section content-section">
-            <div class="container text-center ms-auto me-auto">
-                    <h2 class="ms-auto me-auto">ADA for Warriors News</h2>
-                    <ul class="ms-auto me-auto" style="padding-left: 0px !important;">
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2023-07-08-july-update/" onclick="updateGoogle(/news/2023-07-08-july-update/)">2023-07 Meld Bank Manager, ADA Bounties, and 151k Pledge</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2023-03-05-jan-feb-update/" onclick="updateGoogle(/news/2023-03-05-jan-feb-update/)">2023-03 Cardano Foundation Delegation and 101k Pledge Update</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2023-01-25-500rising-L2/" onclick="updateGoogle(/news/2023-01-25-500rising-L2/)">2023-01 500 Rising Level 2 Class Update</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-12-27-eoy-update/" onclick="updateGoogle(/news/2022-12-27-eoy-update/)">End of Year Update</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-11-01-oct-update/" onclick="updateGoogle(/news/2022-11-01-oct-update/)">October Update: A Catalyst Winner!</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-09-18-aug-sept-update/" onclick="updateGoogle(/news/2022-09-18-aug-sept-update/)">SmartClaimz Mainnet release and 500 Rising/CA updates</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-07-29-500-rising/" onclick="updateGoogle(/news/2022-07-29-500-rising/)">New Mission and Donation Updates!</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-06-18-redesign/" onclick="updateGoogle(/news/2022-06-18-redesign/)">Major Site Redesign!</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-05-20-april-may-update/" onclick="updateGoogle(/news/2022-05-20-april-may-update/)">April/May Update: Donations, SmartClaimz, and ZiberBugs!</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-04-10-march-update/" onclick="updateGoogle(/news/2022-04-10-march-update/)">March Update: Donations, Freeloaderz, and Captive Audience</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-03-31-captive-audience/" onclick="updateGoogle(/news/2022-03-31-captive-audience/)">Captive Audience Announcement</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-02-26-february-update/" onclick="updateGoogle(/news/2022-02-26-february-update/)">February Update: CSPA, xSPO, Freeloaderz, and TOF!</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-02-13-first-blocks/" onclick="updateGoogle(/news/2022-02-13-first-blocks/)">First Cardano Blocks Minted</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-01-28-ada-for-warriors/" onclick="updateGoogle(/news/2022-01-28-ada-for-warriors/)">ADA for Warriors</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2022-01-09-sundaeswap/" onclick="updateGoogle(/news/2022-01-09-sundaeswap/)">SundaeSwap and Cardano 1.33 Update</a></h2>
-                      
-                        <h2 class="ms-auto me-auto"><a href="/news/2021-12-08-third-option-foundation/" onclick="updateGoogle(/news/2021-12-08-third-option-foundation/)">Third Option Foundation Donations</a></h2>
-                      
-                    </ul>
         </div>
-    </section>
-        <!-- Contact Section -->
+        </section>
+            <!-- Contact Section -->
     <section id="contact" class="content-section">
         <div class="contact-info-section">
             <div class="container text-center ms-auto me-auto">
@@ -290,7 +316,7 @@
         </div>
     </section>
 
-        <!-- Footer -->
+            <!-- Footer -->
     <div id="toasterror">Server error encountered!</div>
     <div id="toastsuccess">Thank you for becoming our newest delegator!</div>
     <footer>
@@ -299,7 +325,7 @@
         </div>
     </footer>
 
-     <!-- jQuery Version 1.11.0 -->
+         <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -320,5 +346,19 @@
     <!-- Delegate JavaScript -->
     <script src="/delegate/delegate.js" defer></script>
  
+        <!-- Place in layouts > partials > image-modal.html -->
+<!-- Use the partial at the bottom of any page in which you want magnific pop-up images,
+  or simply place at the bottom of baseof.html -->
+<!-- Modal will open upon clicking the image. Modal will close with clicking the x or image. -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <button class="modal-close" onclick="closeModal()">close</button>
+  <div class="modal-content">
+    <img class="modal-pic" id="modalPic" onclick="closeModal()" style="max-width: 100%; max-height: 80vh; margin: auto;">
+  </div>
+</div>
+
+        
     </body>
 </html>

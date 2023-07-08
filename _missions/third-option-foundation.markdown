@@ -5,7 +5,28 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2023 Donations $604.25 ##
+## 2023 Donations $781.12 ##
+
+### May - June 2023 Donations: $176.87 (612 ₳) ###
+_Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 612 = $176.87._
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2023-07-08-TOF-Donation.jpg){: .md__image id="2023-07-08-TOF" onclick="openModal(\"2023-07-08-TOF\")" style="width:348px;height:180px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| June | 420 | 3 | 340 ₳ | 102 ₳ |
+| June | 417 | 3 | 340 ₳ | 102 ₳ |
+| June | 416 | 1 | 340 ₳ | 102 ₳ |
+| May | 413 | 2 | 340 ₳ | 102 ₳ |
+| May | 410 | 1 | 340 ₳ | 102 ₳ |
+| April | 408 | 15 | 340 ₳ | 102 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 25 | 2040 ₳ | 612 ₳ |
+
+
+<br />
 
 ### March - April 2023 Donations: $430.85 (1122 ₳) ###
 _Donation on 2023-05-01 is being made with ADA at $.384, $.384 * 1122 = $430.85._
