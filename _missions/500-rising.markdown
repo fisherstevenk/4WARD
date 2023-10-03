@@ -5,7 +5,26 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2023 Donations $260.39 ##
+## 2023 Donations $304.83 ##
+
+### July - Oct 2023 Donations: $44.44 (170 ₳) ###
+_Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 170 = $44.44._
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2023-10-03-500-Donation.jpg){: .md__image id="2023-10-03-500" onclick="openModal(\"2023-10-03-500\")" style="width:373px;height:126px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Sept | 439 | 3 | 340 ₳ | 34 ₳ |
+| Sept | 438 | 1 | 340 ₳ | 34 ₳ |
+| Sept | 436 | 2 | 340 ₳ | 34 ₳ |
+| Aug | 430 | 1 | 340 ₳ | 34 ₳ |
+| July | 425 | 1 | 340 ₳ | 34 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 8 | 1700 ₳ | 170 ₳ |
+
+<br />
 
 ### May - June 2023 Donations: $58.96 (204 ₳) ###
 _Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 204 = $58.96._
