@@ -1,10 +1,7 @@
 ---
 layout: ca
-title:  "Captive Audience Donations"
+title:  "Captive Audience Donations - Retired Mission"
 ---
-If you would like to help Captive Audience and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
-<br /><br />
-
 ## 2023 Donations 878 ₳ ##
 
 ### July - Oct 2023 Donations: 170 ₳ ###

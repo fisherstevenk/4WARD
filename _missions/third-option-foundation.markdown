@@ -5,8 +5,32 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2023 Donations $914.43 ##
+## 2023 Donations $1281.12 ##
 
+### Oct - Dec 2023 Donations: $366.69 (637.5 ₳) ###
+_Donation on 2023-12-19 is being made with ADA at $.5752, $.5752 * 637.5 = $366.69._
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2023-12-19-TOF-Donation.jpg){: .md__image id="2023-12-19-TOF" onclick="openModal(\"2023-12-19-TOF\")" style="width:350px;height:186px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Dec | 455 | 1 |  170 ₳ | 42.5 ₳ |
+| Dec | 454 | 1 |  170 ₳ | 42.5 ₳ |
+| Dec | 453 | 1 |  170 ₳ | 42.5 ₳ |
+| Dec | 452 | 3 |  170 ₳ | 42.5 ₳ |
+| Nov | 451 | 2 |  170 ₳ | 42.5 ₳ |
+| Nov | 450 | 1 |  170 ₳ | 42.5 ₳ |
+| Nov | 449 | 1 |  170 ₳ | 42.5 ₳ |
+| Nov | 448 | 1 |  340 ₳ | 85 ₳ |
+| Oct | 444 | 3 |  340 ₳ | 85 ₳ |
+| Oct | 443 | 2 |  340 ₳ | 85 ₳ |
+| Oct | 442 | 2 |  340 ₳ | 85 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 18 | 2550 ₳ | 637.5 ₳ |
+
+<br />
 ### July - Oct 2023 Donations: $133.31 (510 ₳) ###
 _Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 510 = $133.31._
 
