@@ -5,6 +5,38 @@ title:  "Third Option Foundation Donations"
 If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
+## 2024 Donations $408 ##
+
+### Jan - Mar 2024 Donations: $408 (680 ₳) ###
+_Donation on 2024-04-09 is being made with ADA at $.60, $.60 * 680 = $408.00_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2024-04-09-TOF-Donation.jpg){: .md__image id="2024-04-09-TOF" onclick="openModal(\"2024-04-09-TOF\")" style="width:451px;height:230px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Mar | 475 | 4 |  170 ₳ | 42.5 ₳ |
+| Mar | 474 | 3 |  170 ₳ | 42.5 ₳ |
+| Feb | 469 | 3 |  170 ₳ | 42.5 ₳ |
+| Feb | 468 | 2 |  170 ₳ | 42.5 ₳ |
+| Feb | 467 | 13 |  170 ₳ | 42.5 ₳ |
+| Feb | 466 | 14 |  170 ₳ | 42.5 ₳ |
+| Feb | 465 | 21 |  170 ₳ | 42.5 ₳ |
+| Jan | 464 | 12 |  170 ₳ | 42.5 ₳ |
+| Jan | 463 | 9 |  170 ₳ | 42.5 ₳ |
+| Jan | 462 | 18 |  170 ₳ | 42.5 ₳ |
+| Jan | 461 | 12 |  170 ₳ | 42.5 ₳ |
+| Jan | 460 | 16 |  170 ₳ | 42.5 ₳ |
+| Jan | 459 | 15 |  170 ₳ | 42.5 ₳ |
+| Dec | 458 | 17 |  170 ₳ | 42.5 ₳ |
+| Dec | 457 | 17 |  170 ₳ | 42.5 ₳ |
+| Dec | 456 | 21 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 197 | 2720 ₳ | 680 ₳ |
+
+<br />
+
 ## 2023 Donations $1281.12 ##
 
 ### Oct - Dec 2023 Donations: $366.69 (637.5 ₳) ###
