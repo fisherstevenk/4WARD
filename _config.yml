@@ -1,7 +1,7 @@
 # Site settings
 title: Welcome to<br>ADA for Warriors
 email: info@swiftcryptollc.com
-url: https://4ward.swiftcryptollc.com
+url: https://adaforwarriors.io
 description: >-
   A mission-driven single pool for Cardano that donates 50% of it's operator's rewards to the Third Option Foundation to help those who've quietly served.
 
@@ -17,7 +17,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/Swift-Crypto-LLC
   - title: twitter
-    url: https://twitter.com/mehen_cto
+    url: https://x.com/4ward_pool
   - title: linkedin
     url: https://www.linkedin.com/company/swift-crypto-llc
   - title: telegram
