@@ -2,10 +2,35 @@
 layout: tof
 title:  "Third Option Foundation Donations"
 ---
-If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
+If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2024 Donations $561 ##
+## 2024 Donations $757.35 ##
+
+### June - July 2024 Donations: $196.35 (467.5 ₳) ###
+_Donation on 2024-07-28 is being made with ADA at $.42, $.42 * 467.5 = $196.35_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2024-07-28-TOF-Donation.jpg){: .md__image id="2024-07-28-TOF" onclick="openModal(\"2024-07-28-TOF\")" style="width:349px;height:288px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| May | 499 | 2 |  170 ₳ | 42.5 ₳ |
+| May | 498 | 2 |  170 ₳ | 42.5 ₳ |
+| May | 497 | 3 |  170 ₳ | 42.5 ₳ |
+| May | 496 | 8 |  170 ₳ | 42.5 ₳ |
+| May | 495 | 6 |  170 ₳ | 42.5 ₳ |
+| May | 494 | 5 |  170 ₳ | 42.5 ₳ |
+| May | 493 | 3 |  170 ₳ | 42.5 ₳ |
+| Apr | 491 | 1 |  170 ₳ | 42.5 ₳ |
+| Apr | 490 | 2 |  170 ₳ | 42.5 ₳ |
+| Apr | 489 | 2 |  170 ₳ | 42.5 ₳ |
+| Apr | 488 | 4 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 38 | 1870 ₳ | 467.5 ₳ |
+
+<br />
 
 ### Apr - May 2024 Donations: $153 (340 ₳) ###
 _Donation on 2024-06-01 is being made with ADA at $.45, $.45 * 340 = $153.00_
