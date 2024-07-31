@@ -5,35 +5,35 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2024 Donations $757.35 ##
+## Total Donations $1419.52 | 2024 Donations $748.00 ##
 
-### June - July 2024 Donations: $196.35 (467.5 ₳) ###
-_Donation on 2024-07-28 is being made with ADA at $.42, $.42 * 467.5 = $196.35_
+### June - July 2024 Donations: $187.00 (467.5 ₳) ###
+_Donation on 2024-07-31 was made with ADA at $.40, $.40 * 467.5 = $187.00_
 
 {:refdef: style="display:flex;text-align: center;"}
-![Donation](/img/rising/2024-07-28-500-Donation.jpg){: .md__image id="2024-07-28-500" onclick="openModal(\"2024-07-28-500\")" style="width:349px;height:288px;"}
+![Donation](/img/rising/2024-07-31-500-Donation.jpg){: .md__image id="2024-07-31-500" onclick="openModal(\"2024-07-31-500\")" style="width:460px;height:482px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| May | 499 | 2 |  170 ₳ | 42.5 ₳ |
-| May | 498 | 2 |  170 ₳ | 42.5 ₳ |
-| May | 497 | 3 |  170 ₳ | 42.5 ₳ |
-| May | 496 | 8 |  170 ₳ | 42.5 ₳ |
-| May | 495 | 6 |  170 ₳ | 42.5 ₳ |
-| May | 494 | 5 |  170 ₳ | 42.5 ₳ |
-| May | 493 | 3 |  170 ₳ | 42.5 ₳ |
-| Apr | 491 | 1 |  170 ₳ | 42.5 ₳ |
-| Apr | 490 | 2 |  170 ₳ | 42.5 ₳ |
-| Apr | 489 | 2 |  170 ₳ | 42.5 ₳ |
-| Apr | 488 | 4 |  170 ₳ | 42.5 ₳ |
+| July | 499 | 2 |  170 ₳ | 42.5 ₳ |
+| July | 498 | 2 |  170 ₳ | 42.5 ₳ |
+| July | 497 | 3 |  170 ₳ | 42.5 ₳ |
+| July | 496 | 8 |  170 ₳ | 42.5 ₳ |
+| July | 495 | 6 |  170 ₳ | 42.5 ₳ |
+| July | 494 | 5 |  170 ₳ | 42.5 ₳ |
+| June | 493 | 3 |  170 ₳ | 42.5 ₳ |
+| June | 491 | 1 |  170 ₳ | 42.5 ₳ |
+| June | 490 | 2 |  170 ₳ | 42.5 ₳ |
+| June | 489 | 2 |  170 ₳ | 42.5 ₳ |
+| June | 488 | 4 |  170 ₳ | 42.5 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
 | | Total | 38 | 1870 ₳ | 467.5 ₳ |
 
 <br />
 
 ### Apr - May 2024 Donations: $153 (340 ₳) ###
-_Donation on 2024-06-01 is being made with ADA at $.45, $.45 * 340 = $153.00_
+_Donation on 2024-06-01 was made with ADA at $.45, $.45 * 340 = $153.00_
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2024-06-01-500-Donation.jpg){: .md__image id="2024-06-01-500" onclick="openModal(\"2024-06-01-500\")" style="width:349px;height:288px;"}
@@ -55,7 +55,7 @@ _Donation on 2024-06-01 is being made with ADA at $.45, $.45 * 340 = $153.00_
 <br />
 
 ### Jan - Mar 2024 Donations: $408 (680 ₳) ###
-_Donation on 2024-04-09 is being made with ADA at $.60, $.60 * 680 = $408.00_
+_Donation on 2024-04-09 was made with ADA at $.60, $.60 * 680 = $408.00_
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2024-04-09-500-Donation.jpg){: .md__image id="2024-04-09-500" onclick="openModal(\"2024-04-09-500\")" style="width:526px;height:224px;"}
@@ -88,7 +88,7 @@ _Donation on 2024-04-09 is being made with ADA at $.60, $.60 * 680 = $408.00_
 ## 2023 Donations $671.52 ##
 
 ### Oct - Dec 2023 Donations: $366.69 (637.5 ₳) ###
-_Donation on 2023-12-19 is being made with ADA at $.5752, $.5752 * 637.5 = $366.69._
+_Donation on 2023-12-19 was made with ADA at $.5752, $.5752 * 637.5 = $366.69._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2023-12-19-500-Donation.jpg){: .md__image id="2023-12-19-500" onclick="openModal(\"2023-12-19-500\")" style="width:652px;height:420px;"}
@@ -113,7 +113,7 @@ _Donation on 2023-12-19 is being made with ADA at $.5752, $.5752 * 637.5 = $366.
 <br />
 
 ### July - Oct 2023 Donations: $44.44 (170 ₳) ###
-_Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 170 = $44.44._
+_Donation on 2023-10-03 was made with ADA at $.2614, $.2614 * 170 = $44.44._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2023-10-03-500-Donation.jpg){: .md__image id="2023-10-03-500" onclick="openModal(\"2023-10-03-500\")" style="width:373px;height:126px;"}
@@ -132,7 +132,7 @@ _Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 170 = $44.44.
 <br />
 
 ### May - June 2023 Donations: $58.96 (204 ₳) ###
-_Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 204 = $58.96._
+_Donation on 2023-07-08 was made with ADA at $.2890, $.2890 * 204 = $58.96._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2023-07-08-500-Donation.jpg){: .md__image id="2023-07-08-500" onclick="openModal(\"2023-07-08-500\")" style="width:308px;height:518px;"}
@@ -153,7 +153,7 @@ _Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 204 = $58.96.
 <br />
 
 ### March - April 2023 Donations: $143.62 (374 ₳) ###
-_Donation on 2023-05-01 is being made with ADA at $.384, $.384 * 374 = $143.62._
+_Donation on 2023-05-01 was made with ADA at $.384, $.384 * 374 = $143.62._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2023-05-01-500-Donation.jpg){: .md__image id="2023-05-01-500" onclick="openModal(\"2023-05-01-500\")" style="width:265px;height:347px;"}
@@ -178,7 +178,7 @@ _Donation on 2023-05-01 is being made with ADA at $.384, $.384 * 374 = $143.62._
 <br />
 
 ### January - February 2023 Donations: $57.80 (170 ₳) ###
-_Donation on 2023-03-05 is being made with ADA at $.34, $.34 * 170 = $57.80._
+_Donation on 2023-03-05 was made with ADA at $.34, $.34 * 170 = $57.80._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/rising/2023-03-05-500-Donation.jpg){: .md__image id="2023-03-05-500" onclick="openModal(\"2023-03-05-500\")" style="width:275px;height:200px;"}
@@ -199,7 +199,7 @@ _Donation on 2023-03-05 is being made with ADA at $.34, $.34 * 170 = $57.80._
 ## 2022 Donations $132.09 (510 ₳) ##
 
 ### August - December 2022 Donations: $132.09 (510 ₳) ###
-_Our end of year donation on 2022-12-27 is being made with ADA at $.259, $.259 * 510 = $132.09._
+_Our end of year donation on 2022-12-27 was made with ADA at $.259, $.259 * 510 = $132.09._
 
 {:refdef: style="text-align: center;"}
 ![Donation](/img/rising/2022-12-27-500-Donation.jpg){: .md__image id="2022-12-27" onclick="openModal(\"2022-12-27\")" style="width:337px;height:179px;"}
