@@ -2,13 +2,38 @@
 layout: tof
 title:  "Third Option Foundation Donations"
 ---
-If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.  When our pool is active, it will mint blocks and rewards will be generated.  It is from the operator piece of the rewards that the donations are given.
+If you would like to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## 2024 Donations $561 ##
+## Total Donations $2029.12 | 2024 Donations $748.00 ##
+
+### June - July 2024 Donations: $187.00 (467.5 ₳) ###
+_Donation on 2024-07-31 was made with ADA at $.40, $.40 * 467.5 = $187.00_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/tof/2024-07-31-TOF-Donation.jpg){: .md__image id="2024-07-31-TOF" onclick="openModal(\"2024-07-31-TOF\")" style="width:350px;height:186px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| July | 499 | 2 |  170 ₳ | 42.5 ₳ |
+| July | 498 | 2 |  170 ₳ | 42.5 ₳ |
+| July | 497 | 3 |  170 ₳ | 42.5 ₳ |
+| July | 496 | 8 |  170 ₳ | 42.5 ₳ |
+| July | 495 | 6 |  170 ₳ | 42.5 ₳ |
+| July | 494 | 5 |  170 ₳ | 42.5 ₳ |
+| June | 493 | 3 |  170 ₳ | 42.5 ₳ |
+| June | 491 | 1 |  170 ₳ | 42.5 ₳ |
+| June | 490 | 2 |  170 ₳ | 42.5 ₳ |
+| June | 489 | 2 |  170 ₳ | 42.5 ₳ |
+| June | 488 | 4 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 38 | 1870 ₳ | 467.5 ₳ |
+
+<br />
 
 ### Apr - May 2024 Donations: $153 (340 ₳) ###
-_Donation on 2024-06-01 is being made with ADA at $.45, $.45 * 340 = $153.00_
+_Donation on 2024-06-01 was made with ADA at $.45, $.45 * 340 = $153.00_
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2024-06-01-TOF-Donation.jpg){: .md__image id="2024-06-01-TOF" onclick="openModal(\"2024-06-01-TOF\")" style="width:349px;height:178px;"}
@@ -30,7 +55,7 @@ _Donation on 2024-06-01 is being made with ADA at $.45, $.45 * 340 = $153.00_
 <br />
 
 ### Jan - Mar 2024 Donations: $408 (680 ₳) ###
-_Donation on 2024-04-09 is being made with ADA at $.60, $.60 * 680 = $408.00_
+_Donation on 2024-04-09 was made with ADA at $.60, $.60 * 680 = $408.00_
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2024-04-09-TOF-Donation.jpg){: .md__image id="2024-04-09-TOF" onclick="openModal(\"2024-04-09-TOF\")" style="width:451px;height:230px;"}
@@ -62,7 +87,7 @@ _Donation on 2024-04-09 is being made with ADA at $.60, $.60 * 680 = $408.00_
 ## 2023 Donations $1281.12 ##
 
 ### Oct - Dec 2023 Donations: $366.69 (637.5 ₳) ###
-_Donation on 2023-12-19 is being made with ADA at $.5752, $.5752 * 637.5 = $366.69._
+_Donation on 2023-12-19 was made with ADA at $.5752, $.5752 * 637.5 = $366.69._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2023-12-19-TOF-Donation.jpg){: .md__image id="2023-12-19-TOF" onclick="openModal(\"2023-12-19-TOF\")" style="width:350px;height:186px;"}
@@ -86,7 +111,7 @@ _Donation on 2023-12-19 is being made with ADA at $.5752, $.5752 * 637.5 = $366.
 
 <br />
 ### July - Oct 2023 Donations: $133.31 (510 ₳) ###
-_Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 510 = $133.31._
+_Donation on 2023-10-03 was made with ADA at $.2614, $.2614 * 510 = $133.31._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2023-10-03-TOF-Donation.jpg){: .md__image id="2023-10-03-TOF" onclick="openModal(\"2023-10-03-TOF\")" style="width:350px;height:85px;"}
@@ -105,7 +130,7 @@ _Donation on 2023-10-03 is being made with ADA at $.2614, $.2614 * 510 = $133.31
 <br />
 
 ### May - June 2023 Donations: $176.87 (612 ₳) ###
-_Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 612 = $176.87._
+_Donation on 2023-07-08 was made with ADA at $.2890, $.2890 * 612 = $176.87._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2023-07-08-TOF-Donation.jpg){: .md__image id="2023-07-08-TOF" onclick="openModal(\"2023-07-08-TOF\")" style="width:348px;height:180px;"}
@@ -126,7 +151,7 @@ _Donation on 2023-07-08 is being made with ADA at $.2890, $.2890 * 612 = $176.87
 <br />
 
 ### March - April 2023 Donations: $430.85 (1122 ₳) ###
-_Donation on 2023-05-01 is being made with ADA at $.384, $.384 * 1122 = $430.85._
+_Donation on 2023-05-01 was made with ADA at $.384, $.384 * 1122 = $430.85._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2023-05-01-TOF-Donation.jpg){: .md__image id="2023-05-01-TOF" onclick="openModal(\"2023-05-01-TOF\")" style="width:348px;height:180px;"}
@@ -152,7 +177,7 @@ _Donation on 2023-05-01 is being made with ADA at $.384, $.384 * 1122 = $430.85.
 <br />
 
 ### January - February 2023 Donations: $173.40 (510 ₳) ###
-_Donation on 2023-03-05 is being made with ADA at $.34, $.34 * 510 = $173.40._
+_Donation on 2023-03-05 was made with ADA at $.34, $.34 * 510 = $173.40._
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2023-03-05-TOF-Donation.jpg){: .md__image id="2023-03-05-TOF" onclick="openModal(\"2023-03-05-TOF\")" style="width:300px;height:159px;"}
@@ -173,7 +198,7 @@ _Donation on 2023-03-05 is being made with ADA at $.34, $.34 * 510 = $173.40._
 ## 2022 Donations $1795.56 ##
 
 ### August - December 2022 Donations: $396.27 (1530 ₳) ###
-_We held the donations in hopes that the ADA price rebounds a bit. Unfortunately, it hasn't... Our end of year donation is being made with ADA at $.259, $.259 * 1530 = $396.27_
+_We held the donations in hopes that the ADA price rebounds a bit. Unfortunately, it hasn't... Our end of year donation was made with ADA at $.259, $.259 * 1530 = $396.27_
 
 {:refdef: style="display:flex;text-align: center;"}
 ![Donation](/img/tof/2022-12-27-ADA.jpg){: .md__image id="2022-12-27-ADA" onclick="openModal(\"2022-12-27-ADA\")" style="width:320px;height:164px;"}
