@@ -5,7 +5,35 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## Total Donations $1419.52 | 2024 Donations $748.00 ##
+## Total Donations $1716.25 | 2024 Donations $1044.73 ##
+
+### Aug - Oct 2024 Donations: $296.73 (595 ₳) ###
+_Donation on 2024-11-10 was made with ADA at $.4987, $.4987 * 595 = $296.73_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2024-11-10-500-Donation.jpg){: .md__image id="2024-11-10-500" onclick="openModal(\"2024-11-10-500\")" style="width:358px;height:196px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Oct | 518 | 5 |  170 ₳ | 42.5 ₳ |
+| Oct | 517 | 3 |  170 ₳ | 42.5 ₳ |
+| Oct | 516 | 1 |  170 ₳ | 42.5 ₳ |
+| Oct | 515 | 3 |  170 ₳ | 42.5 ₳ |
+| Oct | 514 | 1 |  170 ₳ | 42.5 ₳ |
+| Oct | 513 | 2 |  170 ₳ | 42.5 ₳ |
+| Sept | 512 | 4 |  170 ₳ | 42.5 ₳ |
+| Sept | 507 | 7 |  170 ₳ | 42.5 ₳ |
+| Sept | 506 | 5 |  170 ₳ | 42.5 ₳ |
+| Aug | 505 | 4 |  170 ₳ | 42.5 ₳ |
+| Aug | 503 | 2 |  170 ₳ | 42.5 ₳ |
+| Aug | 502 | 3 |  170 ₳ | 42.5 ₳ |
+| Aug | 501 | 2 |  170 ₳ | 42.5 ₳ |
+| Aug | 500 | 2 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 44 | 2380 ₳ | 595 ₳ |
+
+<br />
 
 ### June - July 2024 Donations: $187.00 (467.5 ₳) ###
 _Donation on 2024-07-31 was made with ADA at $.40, $.40 * 467.5 = $187.00_
