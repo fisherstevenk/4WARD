@@ -5,7 +5,7 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## Total Donations $1716.25 | 2024 Donations $1044.73 ##
+## Total Donations $2077.16 | 2024 Donations $1405.64 ##
 
 ### Nov - Dec 2024 Donations: $360.91 (425 ₳) ###
 _Donation on 2024-12-31 was made with ADA at $.8492, $.8492 * 425 = $360.91_
