@@ -7,6 +7,30 @@ If you would like to help 500 Rising and their mission, please delegate with our
 
 ## Total Donations $1716.25 | 2024 Donations $1044.73 ##
 
+### Nov - Dec 2024 Donations: $360.91 (425 ₳) ###
+_Donation on 2024-12-31 was made with ADA at $.8492, $.8492 * 425 = $360.91_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2024-12-31-500-Donation.jpg){: .md__image id="2024-12-31-500" onclick="openModal(\"2024-12-31-500\")" style="width:358px;height:310px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Dec | 529 | 2 |  170 ₳ | 42.5 ₳ |
+| Dec | 528 | 3 |  170 ₳ | 42.5 ₳ |
+| Dec | 527 | 3 |  170 ₳ | 42.5 ₳ |
+| Dec | 526 | 2 |  170 ₳ | 42.5 ₳ |
+| Dec | 525 | 4 |  170 ₳ | 42.5 ₳ |
+| Nov | 524 | 2 |  170 ₳ | 42.5 ₳ |
+| Nov | 522 | 2 |  170 ₳ | 42.5 ₳ |
+| Nov | 521 | 6 |  170 ₳ | 42.5 ₳ |
+| Nov | 520 | 4 |  170 ₳ | 42.5 ₳ |
+| Nov | 519 | 2 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 30 | 1700 ₳ | 425 ₳ |
+
+<br />
+
 ### Aug - Oct 2024 Donations: $296.73 (595 ₳) ###
 _Donation on 2024-11-10 was made with ADA at $.4987, $.4987 * 595 = $296.73_
 
