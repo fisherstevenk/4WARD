@@ -37,6 +37,8 @@ I've personally delegated to Michele, the founder of Harmonic Labs. His [X profi
 <br><br>
 
 ### Thank You Delegators! ###
-Thank you to my delegators for your continued support. Our missions have been thanking us for each of our donations. The Third Option Foundation CEO has even been writing a personalized thank you on their official thank you letters to me. I appreciate that a lot. 500 Rising has also publically thanked us for our donations as well. Both of these non-profits have truly important missions. Without your support though, we couldn't support them. Thank you.
+Thank you to my delegators for your continued support. Our missions have been thanking us for each of our donations. The Third Option Foundation CEO has even been writing a personalized thank you on their official thank you letters to me. I appreciate that a lot. 500 Rising has also publically thanked us for our donations as well. Both of these non-profits have truly important missions. Without your support though, we couldn't support them.
+
+Thank you.
 
 
