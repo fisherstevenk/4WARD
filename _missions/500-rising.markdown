@@ -5,7 +5,27 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
-## Total Donations $2329.23 | 2025 Donations $252.07 ##
+## Total Donations $2483.3 | 2025 Donations $406.14 ##
+
+### Mar - Jun 19, 2025 Donations: $154.07 (255 ₳) ###
+_Donation on 2025-06-19 was made with ADA at $.6042, $.6042 * 255 = $154.07_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2025-06-19-500-Donation.jpg){: .md__image id="2025-06-19-500" onclick="openModal(\"2025-06-19-500\")" style="width:353px;height:279px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| May | 556 | 1 |  170 ₳ | 42.5 ₳ |
+| Apr | 555 | 2 |  170 ₳ | 42.5 ₳ |
+| Apr | 554 | 1 |  170 ₳ | 42.5 ₳ |
+| Apr | 553 | 1 |  170 ₳ | 42.5 ₳ |
+| Mar | 544 | 3 |  170 ₳ | 42.5 ₳ |
+| Mar | 543 | 2 |  170 ₳ | 42.5 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 10 | 1020 ₳ | 255 ₳ |
+
+<br />
 
 ### Jan - Feb 2025 Donations: $252.07 (382.5 ₳) ###
 _Donation on 2025-03-02 was made with ADA at $.6590, $.6590 * 382.5 = $252.07_
@@ -16,14 +36,14 @@ _Donation on 2025-03-02 was made with ADA at $.6590, $.6590 * 382.5 = $252.07_
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| Dec | 542 | 1 |  170 ₳ | 42.5 ₳ |
-| Dec | 537 | 1 |  170 ₳ | 42.5 ₳ |
-| Dec | 535 | 1 |  170 ₳ | 42.5 ₳ |
-| Nov | 534 | 2 |  170 ₳ | 42.5 ₳ |
-| Nov | 533 | 1 |  170 ₳ | 42.5 ₳ |
-| Nov | 532 | 1 |  170 ₳ | 42.5 ₳ |
-| Nov | 531 | 1 |  170 ₳ | 42.5 ₳ |
-| Nov | 530 | 1 |  170 ₳ | 42.5 ₳ |
+| Feb | 542 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 537 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 535 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 534 | 2 |  170 ₳ | 42.5 ₳ |
+| Jan | 533 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 532 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 531 | 1 |  170 ₳ | 42.5 ₳ |
+| Jan | 530 | 1 |  170 ₳ | 42.5 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
 | | Total | 9 | 1530 ₳ | 382.5 ₳ |
 
