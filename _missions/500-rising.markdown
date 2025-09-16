@@ -11,7 +11,7 @@ If you would like to help 500 Rising and their mission, please delegate with our
 _Donation on 2025-09-16 was made with ADA at $.8623, $.8623 * 119 = $102.61_
 
 {:refdef: style="display:flex;text-align: center;"}
-![Donation](/img/rising/2025-09-16-500-Donation.jpg){: .md__image id="2025-09-16-500" onclick="openModal(\"2025-06-19-500\")" style="width:353px;height:279px;"}
+![Donation](/img/rising/2025-09-16-500-Donation.jpg){: .md__image id="2025-09-16-500" onclick="openModal(\"2025-06-19-500\")" style="width:365px;height:268px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |

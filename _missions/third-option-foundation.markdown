@@ -11,7 +11,7 @@ If you would like to help honor the sacrifices they've made for our country, ple
 _Donation on 2025-09-16 was made with ADA at $.8623, $.8623 * 119 = $102.61_
 
 {:refdef: style="display:flex;text-align: center;"}
-![Donation](/img/rising/2025-09-16-TOF-Donation.jpg){: .md__image id="2025-09-16-TOF" onclick="openModal(\"2025-09-16-TOF\")" style="width:353px;height:279px;"}
+![Donation](/img/tof/2025-09-16-TOF-Donation.jpg){: .md__image id="2025-09-16-TOF" onclick="openModal(\"2025-09-16-TOF\")" style="width:350px;height:182px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
