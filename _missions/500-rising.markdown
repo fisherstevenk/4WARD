@@ -5,13 +5,56 @@ title:  "500 Rising Donations"
 If you would like to help 500 Rising and their mission, please delegate with our 4WARD pool to increase it’s chance of being active for each Cardano epoch. When our pool is active, it will mint blocks and rewards will be generated. It is from the operator piece of the rewards that the donations are given.
 <br /><br />
 
+## Total Donations $2679.14 | 2026 Donations $93.23 ##
+
+### Jun 21, 2025 - Sept 3, 2026 Donations: $93.23 (459 ₳) ###
+_Donation on 2026-09-11 was made with ADA at $.2031, $.2031 * 459 = $93.23_
+
+{:refdef: style="display:flex;text-align: center;"}
+![Donation](/img/rising/2026-09-11-500-Donation.jpg){: .md__image id="2026-09-11-500" onclick="openModal(\"2026-09-11-500\")" style="width:500px;height:419px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| Sept | 653 | 1 |  170 ₳ | 17 ₳ |
+| Aug | 652 | 1 |  170 ₳ | 17 ₳ |
+| Aug | 649 | 1 |  170 ₳ | 17 ₳ |
+| Aug | 647 | 1 |  170 ₳ | 17 ₳ |
+| Jul | 645 | 2 |  170 ₳ | 17 ₳ |
+| Jul | 643 | 1 |  170 ₳ | 17 ₳ |
+| Jul | 641 | 1 |  170 ₳ | 17 ₳ |
+| Jun | 639 | 1 |  170 ₳ | 17 ₳ |
+| Jun | 638 | 1 |  170 ₳ | 17 ₳ |
+| Jun | 637 | 1 |  170 ₳ | 17 ₳ |
+| May | 634 | 1 |  170 ₳ | 17 ₳ |
+| May | 633 | 1 |  170 ₳ | 17 ₳ |
+| Apr | 627 | 1 |  170 ₳ | 17 ₳ |
+| Apr | 625 | 2 |  170 ₳ | 17 ₳ |
+| Apr | 623 | 1 |  170 ₳ | 17 ₳ |
+| Mar | 622 | 1 |  170 ₳ | 17 ₳ |
+| Mar | 621 | 1 |  170 ₳ | 17 ₳ |
+| Mar | 618 | 2 |  170 ₳ | 17 ₳ |
+| Feb | 616 | 1 |  170 ₳ | 17 ₳ |
+| Feb | 615 | 1 |  170 ₳ | 17 ₳ |
+| Feb | 614 | 2 |  170 ₳ | 17 ₳ |
+| Jan | 610 | 1 |  170 ₳ | 17 ₳ |
+| Jan | 604 | 1 |  170 ₳ | 17 ₳ |
+| Dec | 602 | 1 |  170 ₳ | 17 ₳ |
+| Nov | 593 | 1 |  170 ₳ | 17 ₳ |
+| Sept | 583 | 1 |  170 ₳ | 17 ₳ |
+| Sept | 582 | 1 |  170 ₳ | 17 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 31 | 4590 ₳ | 459 ₳ |
+
+<br />
+
 ## Total Donations $2585.91 | 2025 Donations $508.75 ##
 
 ### Jun 20 - Sept 16, 2025 Donations: $102.61 (119 ₳) ###
 _Donation on 2025-09-16 was made with ADA at $.8623, $.8623 * 119 = $102.61_
 
 {:refdef: style="display:flex;text-align: center;"}
-![Donation](/img/rising/2025-09-16-500-Donation.jpg){: .md__image id="2025-09-16-500" onclick="openModal(\"2025-06-19-500\")" style="width:365px;height:268px;"}
+![Donation](/img/rising/2025-09-16-500-Donation.jpg){: .md__image id="2025-09-16-500" onclick="openModal(\"2025-09-16-500\")" style="width:365px;height:268px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
